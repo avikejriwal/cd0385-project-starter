@@ -14728,10 +14728,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Requirement already satisfied: pip in /usr/local/lib/python3.7/site-packages (21.3.1)
+<pre><span class="ansi-yellow-fg">WARNING: The directory &#39;/root/.cache/pip&#39; or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo&#39;s -H flag.</span>
+Requirement already satisfied: pip in /usr/local/lib/python3.7/site-packages (21.3.1)
 Collecting pip
   Downloading pip-23.0-py3-none-any.whl (2.1 MB)
-     |████████████████████████████████| 2.1 MB 27.5 MB/s            
+     |████████████████████████████████| 2.1 MB 28.9 MB/s            
 Installing collected packages: pip
   Attempting uninstall: pip
     Found existing installation: pip 21.3.1
@@ -14739,8 +14740,10 @@ Installing collected packages: pip
       Successfully uninstalled pip-21.3.1
 Successfully installed pip-23.0
 <span class="ansi-yellow-fg">WARNING: Running pip as the &#39;root&#39; user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv</span>
-Collecting kaggle
-  Using cached kaggle-1.5.12.tar.gz (58 kB)
+<span class="ansi-yellow-fg">WARNING: The directory &#39;/root/.cache/pip&#39; or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo&#39;s -H flag.</span><span class="ansi-yellow-fg">
+</span>Collecting kaggle
+  Downloading kaggle-1.5.12.tar.gz (58 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">59.0/59.0 kB</span> <span class="ansi-red-fg">58.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
   Preparing metadata (setup.py) ... done
 Requirement already satisfied: six&gt;=1.10 in /usr/local/lib/python3.7/site-packages (from kaggle) (1.16.0)
 Requirement already satisfied: certifi in /usr/local/lib/python3.7/site-packages (from kaggle) (2021.10.8)
@@ -14748,22 +14751,25 @@ Requirement already satisfied: python-dateutil in /usr/local/lib/python3.7/site-
 Requirement already satisfied: requests in /usr/local/lib/python3.7/site-packages (from kaggle) (2.22.0)
 Requirement already satisfied: tqdm in /usr/local/lib/python3.7/site-packages (from kaggle) (4.39.0)
 Collecting python-slugify
-  Using cached python_slugify-8.0.0-py2.py3-none-any.whl (9.5 kB)
+  Downloading python_slugify-8.0.0-py2.py3-none-any.whl (9.5 kB)
 Requirement already satisfied: urllib3 in /usr/local/lib/python3.7/site-packages (from kaggle) (1.25.11)
 Collecting text-unidecode&gt;=1.3
-  Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
-Requirement already satisfied: chardet&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.7/site-packages (from requests-&gt;kaggle) (3.0.4)
+  Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">78.2/78.2 kB</span> <span class="ansi-red-fg">180.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: idna&lt;2.9,&gt;=2.5 in /usr/local/lib/python3.7/site-packages (from requests-&gt;kaggle) (2.8)
+Requirement already satisfied: chardet&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.7/site-packages (from requests-&gt;kaggle) (3.0.4)
 Installing collected packages: text-unidecode, python-slugify, kaggle
 <span class="ansi-yellow-fg">  DEPRECATION: kaggle is being installed using the legacy &#39;setup.py install&#39; method, because it does not have a &#39;pyproject.toml&#39; and the &#39;wheel&#39; package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the &#39;--use-pep517&#39; option. Discussion can be found at https://github.com/pypa/pip/issues/8559</span><span class="ansi-yellow-fg">
 </span>  Running setup.py install for kaggle ... done
 Successfully installed kaggle-1.5.12 python-slugify-8.0.0 text-unidecode-1.3
 <span class="ansi-yellow-fg">WARNING: Running pip as the &#39;root&#39; user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv</span><span class="ansi-yellow-fg">
+</span><span class="ansi-yellow-fg">WARNING: The directory &#39;/root/.cache/pip&#39; or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo&#39;s -H flag.</span><span class="ansi-yellow-fg">
 </span>Requirement already satisfied: setuptools in /usr/local/lib/python3.7/site-packages (59.4.0)
 Collecting setuptools
-  Using cached setuptools-67.0.0-py3-none-any.whl (1.1 MB)
+  Downloading setuptools-67.0.0-py3-none-any.whl (1.1 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.1/1.1 MB</span> <span class="ansi-red-fg">70.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting wheel
-  Using cached wheel-0.38.4-py3-none-any.whl (36 kB)
+  Downloading wheel-0.38.4-py3-none-any.whl (36 kB)
 Installing collected packages: wheel, setuptools
   Attempting uninstall: setuptools
     Found existing installation: setuptools 59.4.0
@@ -14771,10 +14777,13 @@ Installing collected packages: wheel, setuptools
       Successfully uninstalled setuptools-59.4.0
 Successfully installed setuptools-67.0.0 wheel-0.38.4
 <span class="ansi-yellow-fg">WARNING: Running pip as the &#39;root&#39; user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv</span><span class="ansi-yellow-fg">
+</span><span class="ansi-yellow-fg">WARNING: The directory &#39;/root/.cache/pip&#39; or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo&#39;s -H flag.</span><span class="ansi-yellow-fg">
 </span>Collecting mxnet&lt;2.0.0
-  Using cached mxnet-1.9.1-py3-none-manylinux2014_x86_64.whl (49.1 MB)
+  Downloading mxnet-1.9.1-py3-none-manylinux2014_x86_64.whl (49.1 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">49.1/49.1 MB</span> <span class="ansi-red-fg">143.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
 Collecting bokeh==2.0.1
-  Using cached bokeh-2.0.1.tar.gz (8.6 MB)
+  Downloading bokeh-2.0.1.tar.gz (8.6 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">8.6/8.6 MB</span> <span class="ansi-red-fg">177.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
   Preparing metadata (setup.py) ... done
 Requirement already satisfied: PyYAML&gt;=3.10 in /usr/local/lib/python3.7/site-packages (from bokeh==2.0.1) (5.4.1)
 Requirement already satisfied: python-dateutil&gt;=2.1 in /usr/local/lib/python3.7/site-packages (from bokeh==2.0.1) (2.8.2)
@@ -14784,19 +14793,19 @@ Requirement already satisfied: pillow&gt;=4.0 in /usr/local/lib/python3.7/site-p
 Requirement already satisfied: packaging&gt;=16.8 in /usr/local/lib/python3.7/site-packages (from bokeh==2.0.1) (21.3)
 Requirement already satisfied: tornado&gt;=5 in /usr/local/lib/python3.7/site-packages (from bokeh==2.0.1) (6.1)
 Requirement already satisfied: typing_extensions&gt;=3.7.4 in /usr/local/lib/python3.7/site-packages (from bokeh==2.0.1) (4.0.1)
-Requirement already satisfied: requests&lt;3,&gt;=2.20.0 in /usr/local/lib/python3.7/site-packages (from mxnet&lt;2.0.0) (2.22.0)
 Requirement already satisfied: graphviz&lt;0.9.0,&gt;=0.8.1 in /usr/local/lib/python3.7/site-packages (from mxnet&lt;2.0.0) (0.8.4)
+Requirement already satisfied: requests&lt;3,&gt;=2.20.0 in /usr/local/lib/python3.7/site-packages (from mxnet&lt;2.0.0) (2.22.0)
 Requirement already satisfied: MarkupSafe&gt;=2.0 in /usr/local/lib/python3.7/site-packages (from Jinja2&gt;=2.7-&gt;bokeh==2.0.1) (2.0.1)
 Requirement already satisfied: pyparsing!=3.0.5,&gt;=2.0.2 in /usr/local/lib/python3.7/site-packages (from packaging&gt;=16.8-&gt;bokeh==2.0.1) (3.0.6)
 Requirement already satisfied: six&gt;=1.5 in /usr/local/lib/python3.7/site-packages (from python-dateutil&gt;=2.1-&gt;bokeh==2.0.1) (1.16.0)
 Requirement already satisfied: idna&lt;2.9,&gt;=2.5 in /usr/local/lib/python3.7/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (2.8)
-Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.7/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (2021.10.8)
 Requirement already satisfied: chardet&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.7/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (3.0.4)
 Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,&lt;1.26,&gt;=1.21.1 in /usr/local/lib/python3.7/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (1.25.11)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.7/site-packages (from requests&lt;3,&gt;=2.20.0-&gt;mxnet&lt;2.0.0) (2021.10.8)
 Building wheels for collected packages: bokeh
   Building wheel for bokeh (setup.py) ... done
-  Created wheel for bokeh: filename=bokeh-2.0.1-py3-none-any.whl size=9080017 sha256=7970bd2740dc1f6cf0ae59086930b113606c4180f16cbeba93f2b6ff098206e7
-  Stored in directory: /root/.cache/pip/wheels/9f/9e/ac/f24f30e119df73511fde9af8aa747217ac8824e662037ba9a8
+  Created wheel for bokeh: filename=bokeh-2.0.1-py3-none-any.whl size=9080017 sha256=58ac29f328dfca944234d18b10c44ad55db0f3aaca22a78c5d3694f912938bea
+  Stored in directory: /tmp/pip-ephem-wheel-cache-5ryh8ew0/wheels/9f/9e/ac/f24f30e119df73511fde9af8aa747217ac8824e662037ba9a8
 Successfully built bokeh
 Installing collected packages: mxnet, bokeh
   Attempting uninstall: bokeh
@@ -14807,331 +14816,331 @@ Successfully installed bokeh-2.0.1 mxnet-1.9.1
 <span class="ansi-yellow-fg">WARNING: Running pip as the &#39;root&#39; user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv</span><span class="ansi-yellow-fg">
 </span>Collecting autogluon
   Downloading autogluon-0.6.2-py3-none-any.whl (9.8 kB)
-Collecting autogluon.text==0.6.2
-  Downloading autogluon.text-0.6.2-py3-none-any.whl (62 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">62.1/62.1 kB</span> <span class="ansi-red-fg">162.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting autogluon.timeseries[all]==0.6.2
   Downloading autogluon.timeseries-0.6.2-py3-none-any.whl (103 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">103.6/103.6 kB</span> <span class="ansi-red-fg">158.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting autogluon.features==0.6.2
-  Downloading autogluon.features-0.6.2-py3-none-any.whl (60 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">60.0/60.0 kB</span> <span class="ansi-red-fg">165.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting autogluon.multimodal==0.6.2
-  Downloading autogluon.multimodal-0.6.2-py3-none-any.whl (303 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">303.4/303.4 kB</span> <span class="ansi-red-fg">217.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting autogluon.vision==0.6.2
-  Downloading autogluon.vision-0.6.2-py3-none-any.whl (49 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">49.8/49.8 kB</span> <span class="ansi-red-fg">147.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting autogluon.core[all]==0.6.2
-  Downloading autogluon.core-0.6.2-py3-none-any.whl (226 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">226.5/226.5 kB</span> <span class="ansi-red-fg">220.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">103.6/103.6 kB</span> <span class="ansi-red-fg">172.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting autogluon.tabular[all]==0.6.2
   Downloading autogluon.tabular-0.6.2-py3-none-any.whl (292 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">292.5/292.5 kB</span> <span class="ansi-red-fg">212.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Requirement already satisfied: requests in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (2.22.0)
-Collecting numpy&lt;1.24,&gt;=1.21
-  Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">15.7/15.7 MB</span> <span class="ansi-red-fg">158.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
-Requirement already satisfied: scikit-learn&lt;1.2,&gt;=1.0.0 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (1.0.1)
-Requirement already satisfied: matplotlib in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (3.5.0)
-Requirement already satisfied: boto3 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (1.20.17)
-Collecting distributed&lt;=2021.11.2,&gt;=2021.09.1
-  Downloading distributed-2021.11.2-py3-none-any.whl (802 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">802.2/802.2 kB</span> <span class="ansi-red-fg">228.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting scipy&lt;1.10.0,&gt;=1.5.4
-  Downloading scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">38.1/38.1 MB</span> <span class="ansi-red-fg">162.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">292.5/292.5 kB</span> <span class="ansi-red-fg">231.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting autogluon.text==0.6.2
+  Downloading autogluon.text-0.6.2-py3-none-any.whl (62 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">62.1/62.1 kB</span> <span class="ansi-red-fg">168.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting autogluon.core[all]==0.6.2
+  Downloading autogluon.core-0.6.2-py3-none-any.whl (226 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">226.5/226.5 kB</span> <span class="ansi-red-fg">212.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting autogluon.features==0.6.2
+  Downloading autogluon.features-0.6.2-py3-none-any.whl (60 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">60.0/60.0 kB</span> <span class="ansi-red-fg">162.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting autogluon.vision==0.6.2
+  Downloading autogluon.vision-0.6.2-py3-none-any.whl (49 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">49.8/49.8 kB</span> <span class="ansi-red-fg">152.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting autogluon.multimodal==0.6.2
+  Downloading autogluon.multimodal-0.6.2-py3-none-any.whl (303 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">303.4/303.4 kB</span> <span class="ansi-red-fg">225.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting dask&lt;=2021.11.2,&gt;=2021.09.1
   Downloading dask-2021.11.2-py3-none-any.whl (1.0 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.0/1.0 MB</span> <span class="ansi-red-fg">236.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.0/1.0 MB</span> <span class="ansi-red-fg">224.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Requirement already satisfied: requests in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (2.22.0)
 Requirement already satisfied: psutil&lt;6,&gt;=5.7.3 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (5.8.0)
-Requirement already satisfied: tqdm&gt;=4.38.0 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (4.39.0)
-Requirement already satisfied: pandas!=1.4.0,&lt;1.6,&gt;=1.2.5 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (1.3.4)
+Requirement already satisfied: scikit-learn&lt;1.2,&gt;=1.0.0 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (1.0.1)
+Requirement already satisfied: matplotlib in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (3.5.0)
+Collecting numpy&lt;1.24,&gt;=1.21
+  Downloading numpy-1.21.6-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.7 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">15.7/15.7 MB</span> <span class="ansi-red-fg">163.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+Requirement already satisfied: networkx&lt;3.0,&gt;=2.3 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (2.6.3)
 Collecting autogluon.common==0.6.2
   Downloading autogluon.common-0.6.2-py3-none-any.whl (44 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">44.7/44.7 kB</span> <span class="ansi-red-fg">149.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Requirement already satisfied: networkx&lt;3.0,&gt;=2.3 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (2.6.3)
-Collecting hyperopt&lt;0.2.8,&gt;=0.2.7
-  Downloading hyperopt-0.2.7-py2.py3-none-any.whl (1.6 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.6/1.6 MB</span> <span class="ansi-red-fg">236.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">44.7/44.7 kB</span> <span class="ansi-red-fg">150.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting scipy&lt;1.10.0,&gt;=1.5.4
+  Downloading scipy-1.7.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (38.1 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">38.1/38.1 MB</span> <span class="ansi-red-fg">161.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+Collecting distributed&lt;=2021.11.2,&gt;=2021.09.1
+  Downloading distributed-2021.11.2-py3-none-any.whl (802 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">802.2/802.2 kB</span> <span class="ansi-red-fg">239.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Requirement already satisfied: tqdm&gt;=4.38.0 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (4.39.0)
+Requirement already satisfied: pandas!=1.4.0,&lt;1.6,&gt;=1.2.5 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (1.3.4)
+Requirement already satisfied: boto3 in /usr/local/lib/python3.7/site-packages (from autogluon.core[all]==0.6.2-&gt;autogluon) (1.20.17)
 Collecting ray&lt;2.1,&gt;=2.0
   Downloading ray-2.0.1-cp37-cp37m-manylinux2014_x86_64.whl (60.5 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">60.5/60.5 MB</span> <span class="ansi-red-fg">168.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">60.5/60.5 MB</span> <span class="ansi-red-fg">168.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+Collecting hyperopt&lt;0.2.8,&gt;=0.2.7
+  Downloading hyperopt-0.2.7-py2.py3-none-any.whl (1.6 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.6/1.6 MB</span> <span class="ansi-red-fg">248.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting nptyping&lt;1.5.0,&gt;=1.4.4
+  Downloading nptyping-1.4.4-py3-none-any.whl (31 kB)
+Requirement already satisfied: text-unidecode&lt;=1.3 in /usr/local/lib/python3.7/site-packages (from autogluon.multimodal==0.6.2-&gt;autogluon) (1.3)
+Collecting timm&lt;0.7.0
+  Downloading timm-0.6.12-py3-none-any.whl (549 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">549.1/549.1 kB</span> <span class="ansi-red-fg">146.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting torchtext&lt;0.14.0
+  Downloading torchtext-0.13.1-cp37-cp37m-manylinux1_x86_64.whl (1.9 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.9/1.9 MB</span> <span class="ansi-red-fg">212.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting seqeval&lt;=1.2.2
+  Downloading seqeval-1.2.2.tar.gz (43 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">43.6/43.6 kB</span> <span class="ansi-red-fg">149.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+  Preparing metadata (setup.py) ... done
 Collecting fairscale&lt;=0.4.6,&gt;=0.4.5
   Downloading fairscale-0.4.6.tar.gz (248 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">248.2/248.2 kB</span> <span class="ansi-red-fg">217.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">248.2/248.2 kB</span> <span class="ansi-red-fg">208.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
   Installing build dependencies ... done
   Getting requirements to build wheel ... done
   Installing backend dependencies ... done
   Preparing metadata (pyproject.toml) ... done
-Collecting seqeval&lt;=1.2.2
-  Downloading seqeval-1.2.2.tar.gz (43 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">43.6/43.6 kB</span> <span class="ansi-red-fg">136.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-  Preparing metadata (setup.py) ... done
-Collecting albumentations&lt;=1.2.0,&gt;=1.1.0
-  Downloading albumentations-1.2.0-py3-none-any.whl (113 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">113.5/113.5 kB</span> <span class="ansi-red-fg">200.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting scikit-image&lt;0.20.0,&gt;=0.19.1
-  Downloading scikit_image-0.19.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (13.5 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">13.5/13.5 MB</span> <span class="ansi-red-fg">164.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
-Collecting nltk&lt;4.0.0,&gt;=3.4.5
-  Downloading nltk-3.8.1-py3-none-any.whl (1.5 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.5/1.5 MB</span> <span class="ansi-red-fg">237.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting torchvision&lt;0.14.0
-  Downloading torchvision-0.13.1-cp37-cp37m-manylinux1_x86_64.whl (19.1 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">19.1/19.1 MB</span> <span class="ansi-red-fg">167.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
-Collecting torchtext&lt;0.14.0
-  Downloading torchtext-0.13.1-cp37-cp37m-manylinux1_x86_64.whl (1.9 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.9/1.9 MB</span> <span class="ansi-red-fg">236.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting jsonschema&lt;=4.8.0
-  Downloading jsonschema-4.8.0-py3-none-any.whl (81 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">81.4/81.4 kB</span> <span class="ansi-red-fg">191.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting openmim&lt;=0.2.1,&gt;0.1.5
-  Downloading openmim-0.2.1-py2.py3-none-any.whl (49 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">49.7/49.7 kB</span> <span class="ansi-red-fg">153.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting nptyping&lt;1.5.0,&gt;=1.4.4
-  Downloading nptyping-1.4.4-py3-none-any.whl (31 kB)
-Collecting timm&lt;0.7.0
-  Downloading timm-0.6.12-py3-none-any.whl (549 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">549.1/549.1 kB</span> <span class="ansi-red-fg">238.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting Pillow&lt;=9.4.0,&gt;=9.3.0
-  Downloading Pillow-9.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">3.3/3.3 MB</span> <span class="ansi-red-fg">212.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting transformers&lt;4.24.0,&gt;=4.23.0
-  Downloading transformers-4.23.1-py3-none-any.whl (5.3 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">5.3/5.3 MB</span> <span class="ansi-red-fg">199.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting evaluate&lt;=0.3.0
-  Downloading evaluate-0.3.0-py3-none-any.whl (72 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">72.9/72.9 kB</span> <span class="ansi-red-fg">147.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting torch&lt;1.13,&gt;=1.9
   Downloading torch-1.12.1-cp37-cp37m-manylinux1_x86_64.whl (776.3 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">776.3/776.3 MB</span> <span class="ansi-red-fg">146.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>00:0100:01
-Collecting omegaconf&lt;2.2.0,&gt;=2.1.1
-  Downloading omegaconf-2.1.2-py3-none-any.whl (74 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">74.7/74.7 kB</span> <span class="ansi-red-fg">174.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">776.3/776.3 MB</span> <span class="ansi-red-fg">161.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>00:0100:01
 Collecting torchmetrics&lt;0.9.0,&gt;=0.8.0
   Downloading torchmetrics-0.8.2-py3-none-any.whl (409 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">409.8/409.8 kB</span> <span class="ansi-red-fg">206.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting nlpaug&lt;=1.1.10,&gt;=1.1.10
-  Downloading nlpaug-1.1.10-py3-none-any.whl (410 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">410.8/410.8 kB</span> <span class="ansi-red-fg">211.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">409.8/409.8 kB</span> <span class="ansi-red-fg">231.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting Pillow&lt;=9.4.0,&gt;=9.3.0
+  Downloading Pillow-9.4.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">3.3/3.3 MB</span> <span class="ansi-red-fg">196.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting torchvision&lt;0.14.0
+  Downloading torchvision-0.13.1-cp37-cp37m-manylinux1_x86_64.whl (19.1 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">19.1/19.1 MB</span> <span class="ansi-red-fg">145.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
 Collecting smart-open&lt;5.3.0,&gt;=5.2.1
   Downloading smart_open-5.2.1-py3-none-any.whl (58 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">58.6/58.6 kB</span> <span class="ansi-red-fg">157.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">58.6/58.6 kB</span> <span class="ansi-red-fg">166.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting evaluate&lt;=0.3.0
+  Downloading evaluate-0.3.0-py3-none-any.whl (72 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">72.9/72.9 kB</span> <span class="ansi-red-fg">171.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting pytorch-metric-learning&lt;1.4.0,&gt;=1.3.0
   Downloading pytorch_metric_learning-1.3.2-py3-none-any.whl (109 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">109.4/109.4 kB</span> <span class="ansi-red-fg">109.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting pytorch-lightning&lt;1.8.0,&gt;=1.7.4
-  Downloading pytorch_lightning-1.7.7-py3-none-any.whl (708 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">708.1/708.1 kB</span> <span class="ansi-red-fg">218.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Requirement already satisfied: text-unidecode&lt;=1.3 in /usr/local/lib/python3.7/site-packages (from autogluon.multimodal==0.6.2-&gt;autogluon) (1.3)
-Collecting defusedxml&lt;=0.7.1,&gt;=0.7.1
-  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
-Collecting sentencepiece&lt;0.2.0,&gt;=0.1.95
-  Downloading sentencepiece-0.1.97-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.3/1.3 MB</span> <span class="ansi-red-fg">57.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">109.4/109.4 kB</span> <span class="ansi-red-fg">200.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting nlpaug&lt;=1.1.10,&gt;=1.1.10
+  Downloading nlpaug-1.1.10-py3-none-any.whl (410 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">410.8/410.8 kB</span> <span class="ansi-red-fg">231.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting albumentations&lt;=1.2.0,&gt;=1.1.0
+  Downloading albumentations-1.2.0-py3-none-any.whl (113 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">113.5/113.5 kB</span> <span class="ansi-red-fg">197.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting transformers&lt;4.24.0,&gt;=4.23.0
+  Downloading transformers-4.23.1-py3-none-any.whl (5.3 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">5.3/5.3 MB</span> <span class="ansi-red-fg">186.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting scikit-image&lt;0.20.0,&gt;=0.19.1
+  Downloading scikit_image-0.19.3-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (13.5 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">13.5/13.5 MB</span> <span class="ansi-red-fg">184.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+Collecting nltk&lt;4.0.0,&gt;=3.4.5
+  Downloading nltk-3.8.1-py3-none-any.whl (1.5 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.5/1.5 MB</span> <span class="ansi-red-fg">227.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting accelerate&lt;0.14,&gt;=0.9
   Downloading accelerate-0.13.2-py3-none-any.whl (148 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">148.8/148.8 kB</span> <span class="ansi-red-fg">199.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting lightgbm&lt;3.4,&gt;=3.3
-  Downloading lightgbm-3.3.5-py3-none-manylinux1_x86_64.whl (2.0 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">2.0/2.0 MB</span> <span class="ansi-red-fg">150.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting fastai&lt;2.8,&gt;=2.3.1
-  Downloading fastai-2.7.10-py3-none-any.whl (240 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">240.9/240.9 kB</span> <span class="ansi-red-fg">191.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting xgboost&lt;1.8,&gt;=1.6
-  Downloading xgboost-1.6.2-py3-none-manylinux2014_x86_64.whl (255.9 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">255.9/255.9 MB</span> <span class="ansi-red-fg">158.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>00:0100:01
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">148.8/148.8 kB</span> <span class="ansi-red-fg">170.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting pytorch-lightning&lt;1.8.0,&gt;=1.7.4
+  Downloading pytorch_lightning-1.7.7-py3-none-any.whl (708 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">708.1/708.1 kB</span> <span class="ansi-red-fg">222.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting omegaconf&lt;2.2.0,&gt;=2.1.1
+  Downloading omegaconf-2.1.2-py3-none-any.whl (74 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">74.7/74.7 kB</span> <span class="ansi-red-fg">167.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting defusedxml&lt;=0.7.1,&gt;=0.7.1
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Collecting jsonschema&lt;=4.8.0
+  Downloading jsonschema-4.8.0-py3-none-any.whl (81 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">81.4/81.4 kB</span> <span class="ansi-red-fg">163.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting openmim&lt;=0.2.1,&gt;0.1.5
+  Downloading openmim-0.2.1-py2.py3-none-any.whl (49 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">49.7/49.7 kB</span> <span class="ansi-red-fg">155.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting sentencepiece&lt;0.2.0,&gt;=0.1.95
+  Downloading sentencepiece-0.1.97-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.3/1.3 MB</span> <span class="ansi-red-fg">203.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting catboost&lt;1.2,&gt;=1.0
   Downloading catboost-1.1.1-cp37-none-manylinux1_x86_64.whl (76.6 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">76.6/76.6 MB</span> <span class="ansi-red-fg">159.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>00:0100:01
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">76.6/76.6 MB</span> <span class="ansi-red-fg">163.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>00:0100:01
+Collecting lightgbm&lt;3.4,&gt;=3.3
+  Downloading lightgbm-3.3.5-py3-none-manylinux1_x86_64.whl (2.0 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">2.0/2.0 MB</span> <span class="ansi-red-fg">220.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting fastai&lt;2.8,&gt;=2.3.1
+  Downloading fastai-2.7.10-py3-none-any.whl (240 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">240.9/240.9 kB</span> <span class="ansi-red-fg">126.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting xgboost&lt;1.8,&gt;=1.6
+  Downloading xgboost-1.6.2-py3-none-manylinux2014_x86_64.whl (255.9 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">255.9/255.9 MB</span> <span class="ansi-red-fg">165.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>00:0100:01
 Collecting gluonts~=0.11.0
   Downloading gluonts-0.11.9-py3-none-any.whl (1.1 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.1/1.1 MB</span> <span class="ansi-red-fg">213.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Requirement already satisfied: joblib~=1.1 in /usr/local/lib/python3.7/site-packages (from autogluon.timeseries[all]==0.6.2-&gt;autogluon) (1.1.0)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.1/1.1 MB</span> <span class="ansi-red-fg">241.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting statsmodels~=0.13.0
   Downloading statsmodels-0.13.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.9 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">9.9/9.9 MB</span> <span class="ansi-red-fg">154.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">9.9/9.9 MB</span> <span class="ansi-red-fg">148.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+Requirement already satisfied: joblib~=1.1 in /usr/local/lib/python3.7/site-packages (from autogluon.timeseries[all]==0.6.2-&gt;autogluon) (1.1.0)
 Collecting tbats~=1.1
   Downloading tbats-1.1.2-py3-none-any.whl (43 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">43.8/43.8 kB</span> <span class="ansi-red-fg">80.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">43.8/43.8 kB</span> <span class="ansi-red-fg">134.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting sktime&lt;0.14,&gt;=0.13.1
   Downloading sktime-0.13.4-py3-none-any.whl (7.0 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">7.0/7.0 MB</span> <span class="ansi-red-fg">158.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">7.0/7.0 MB</span> <span class="ansi-red-fg">164.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
 Collecting pmdarima~=1.8.2
   Downloading pmdarima-1.8.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (1.4 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.4/1.4 MB</span> <span class="ansi-red-fg">210.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.4/1.4 MB</span> <span class="ansi-red-fg">226.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting gluoncv&lt;0.10.6,&gt;=0.10.5
   Downloading gluoncv-0.10.5.post0-py2.py3-none-any.whl (1.3 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.3/1.3 MB</span> <span class="ansi-red-fg">154.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">1.3/1.3 MB</span> <span class="ansi-red-fg">241.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: setuptools in /usr/local/lib/python3.7/site-packages (from autogluon.common==0.6.2-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (67.0.0)
 Requirement already satisfied: pyyaml in /usr/local/lib/python3.7/site-packages (from accelerate&lt;0.14,&gt;=0.9-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (5.4.1)
 Requirement already satisfied: packaging&gt;=20.0 in /usr/local/lib/python3.7/site-packages (from accelerate&lt;0.14,&gt;=0.9-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (21.3)
 Collecting albumentations&lt;=1.2.0,&gt;=1.1.0
   Downloading albumentations-1.1.0-py3-none-any.whl (102 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">102.4/102.4 kB</span> <span class="ansi-red-fg">158.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">102.4/102.4 kB</span> <span class="ansi-red-fg">187.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting opencv-python-headless&gt;=4.1.1
   Downloading opencv_python_headless-4.7.0.68-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (49.2 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">49.2/49.2 MB</span> <span class="ansi-red-fg">153.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">49.2/49.2 MB</span> <span class="ansi-red-fg">159.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
 Collecting qudida&gt;=0.0.4
   Downloading qudida-0.0.4-py3-none-any.whl (3.5 kB)
-Requirement already satisfied: six in /usr/local/lib/python3.7/site-packages (from catboost&lt;1.2,&gt;=1.0-&gt;autogluon.tabular[all]==0.6.2-&gt;autogluon) (1.16.0)
-Requirement already satisfied: plotly in /usr/local/lib/python3.7/site-packages (from catboost&lt;1.2,&gt;=1.0-&gt;autogluon.tabular[all]==0.6.2-&gt;autogluon) (5.4.0)
 Requirement already satisfied: graphviz in /usr/local/lib/python3.7/site-packages (from catboost&lt;1.2,&gt;=1.0-&gt;autogluon.tabular[all]==0.6.2-&gt;autogluon) (0.8.4)
+Requirement already satisfied: plotly in /usr/local/lib/python3.7/site-packages (from catboost&lt;1.2,&gt;=1.0-&gt;autogluon.tabular[all]==0.6.2-&gt;autogluon) (5.4.0)
+Requirement already satisfied: six in /usr/local/lib/python3.7/site-packages (from catboost&lt;1.2,&gt;=1.0-&gt;autogluon.tabular[all]==0.6.2-&gt;autogluon) (1.16.0)
+Collecting toolz&gt;=0.8.2
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">55.8/55.8 kB</span> <span class="ansi-red-fg">130.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting partd&gt;=0.3.10
   Downloading partd-1.3.0-py3-none-any.whl (18 kB)
 Requirement already satisfied: fsspec&gt;=0.6.0 in /usr/local/lib/python3.7/site-packages (from dask&lt;=2021.11.2,&gt;=2021.09.1-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2021.11.1)
-Collecting toolz&gt;=0.8.2
-  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">55.8/55.8 kB</span> <span class="ansi-red-fg">146.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: cloudpickle&gt;=1.1.1 in /usr/local/lib/python3.7/site-packages (from dask&lt;=2021.11.2,&gt;=2021.09.1-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2.0.0)
 Requirement already satisfied: tornado&gt;=5 in /usr/local/lib/python3.7/site-packages (from distributed&lt;=2021.11.2,&gt;=2021.09.1-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (6.1)
-Collecting click&gt;=6.6
-  Downloading click-8.1.3-py3-none-any.whl (96 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">96.6/96.6 kB</span> <span class="ansi-red-fg">176.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Requirement already satisfied: jinja2 in /usr/local/lib/python3.7/site-packages (from distributed&lt;=2021.11.2,&gt;=2021.09.1-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (3.0.3)
-Collecting sortedcontainers!=2.0.0,!=2.0.1
-  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
 Collecting tblib&gt;=1.6.0
   Downloading tblib-1.7.0-py2.py3-none-any.whl (12 kB)
-Collecting msgpack&gt;=0.6.0
-  Downloading msgpack-1.0.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (299 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">299.8/299.8 kB</span> <span class="ansi-red-fg">206.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting zict&gt;=0.1.3
   Downloading zict-2.2.0-py2.py3-none-any.whl (23 kB)
+Collecting sortedcontainers!=2.0.0,!=2.0.1
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Collecting click&gt;=6.6
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">96.6/96.6 kB</span> <span class="ansi-red-fg">182.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Requirement already satisfied: jinja2 in /usr/local/lib/python3.7/site-packages (from distributed&lt;=2021.11.2,&gt;=2021.09.1-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (3.0.3)
+Collecting msgpack&gt;=0.6.0
+  Downloading msgpack-1.0.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (299 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">299.8/299.8 kB</span> <span class="ansi-red-fg">220.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting tqdm&gt;=4.38.0
+  Downloading tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">78.5/78.5 kB</span> <span class="ansi-red-fg">158.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting huggingface-hub&gt;=0.7.0
+  Downloading huggingface_hub-0.12.0-py3-none-any.whl (190 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">190.3/190.3 kB</span> <span class="ansi-red-fg">130.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: dill in /usr/local/lib/python3.7/site-packages (from evaluate&lt;=0.3.0-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (0.3.4)
 Collecting xxhash
   Downloading xxhash-3.2.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (213 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">213.1/213.1 kB</span> <span class="ansi-red-fg">196.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting huggingface-hub&gt;=0.7.0
-  Downloading huggingface_hub-0.12.0-py3-none-any.whl (190 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">190.3/190.3 kB</span> <span class="ansi-red-fg">189.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting responses&lt;0.19
-  Downloading responses-0.18.0-py3-none-any.whl (38 kB)
-Collecting tqdm&gt;=4.38.0
-  Downloading tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">78.5/78.5 kB</span> <span class="ansi-red-fg">162.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">213.1/213.1 kB</span> <span class="ansi-red-fg">136.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: importlib-metadata in /usr/local/lib/python3.7/site-packages (from evaluate&lt;=0.3.0-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (4.8.2)
 Requirement already satisfied: multiprocess in /usr/local/lib/python3.7/site-packages (from evaluate&lt;=0.3.0-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (0.70.12.2)
+Collecting responses&lt;0.19
+  Downloading responses-0.18.0-py3-none-any.whl (38 kB)
 Collecting datasets&gt;=2.0.0
   Downloading datasets-2.9.0-py3-none-any.whl (462 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">462.8/462.8 kB</span> <span class="ansi-red-fg">233.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">462.8/462.8 kB</span> <span class="ansi-red-fg">230.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: pip in /usr/local/lib/python3.7/site-packages (from fastai&lt;2.8,&gt;=2.3.1-&gt;autogluon.tabular[all]==0.6.2-&gt;autogluon) (23.0)
 Collecting fastcore&lt;1.6,&gt;=1.4.5
   Downloading fastcore-1.5.27-py3-none-any.whl (67 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">67.1/67.1 kB</span> <span class="ansi-red-fg">147.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting spacy&lt;4
-  Downloading spacy-3.5.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.5 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">6.5/6.5 MB</span> <span class="ansi-red-fg">166.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">67.1/67.1 kB</span> <span class="ansi-red-fg">165.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting fastdownload&lt;2,&gt;=0.0.5
   Downloading fastdownload-0.0.7-py3-none-any.whl (12 kB)
+Collecting spacy&lt;4
+  Downloading spacy-3.5.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.5 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">6.5/6.5 MB</span> <span class="ansi-red-fg">210.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting fastprogress&gt;=0.2.4
   Downloading fastprogress-1.0.3-py3-none-any.whl (12 kB)
-Requirement already satisfied: opencv-python in /usr/local/lib/python3.7/site-packages (from gluoncv&lt;0.10.6,&gt;=0.10.5-&gt;autogluon.vision==0.6.2-&gt;autogluon) (4.5.4.60)
-Collecting yacs
-  Downloading yacs-0.1.8-py3-none-any.whl (14 kB)
 Collecting autocfg
   Downloading autocfg-0.0.8-py3-none-any.whl (13 kB)
+Collecting yacs
+  Downloading yacs-0.1.8-py3-none-any.whl (14 kB)
+Requirement already satisfied: opencv-python in /usr/local/lib/python3.7/site-packages (from gluoncv&lt;0.10.6,&gt;=0.10.5-&gt;autogluon.vision==0.6.2-&gt;autogluon) (4.5.4.60)
 Requirement already satisfied: portalocker in /usr/local/lib/python3.7/site-packages (from gluoncv&lt;0.10.6,&gt;=0.10.5-&gt;autogluon.vision==0.6.2-&gt;autogluon) (2.3.2)
 Requirement already satisfied: typing-extensions~=4.0 in /usr/local/lib/python3.7/site-packages (from gluonts~=0.11.0-&gt;autogluon.timeseries[all]==0.6.2-&gt;autogluon) (4.0.1)
 Collecting pydantic~=1.7
   Downloading pydantic-1.10.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">3.1/3.1 MB</span> <span class="ansi-red-fg">197.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting py4j
-  Downloading py4j-0.10.9.7-py2.py3-none-any.whl (200 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">200.5/200.5 kB</span> <span class="ansi-red-fg">191.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">3.1/3.1 MB</span> <span class="ansi-red-fg">215.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting future
   Downloading future-0.18.3.tar.gz (840 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">840.9/840.9 kB</span> <span class="ansi-red-fg">214.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">840.9/840.9 kB</span> <span class="ansi-red-fg">235.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
   Preparing metadata (setup.py) ... done
+Collecting py4j
+  Downloading py4j-0.10.9.7-py2.py3-none-any.whl (200 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">200.5/200.5 kB</span> <span class="ansi-red-fg">217.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Requirement already satisfied: attrs&gt;=17.4.0 in /usr/local/lib/python3.7/site-packages (from jsonschema&lt;=4.8.0-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (21.2.0)
 Collecting importlib-resources&gt;=1.4.0
   Downloading importlib_resources-5.10.2-py3-none-any.whl (34 kB)
-Requirement already satisfied: attrs&gt;=17.4.0 in /usr/local/lib/python3.7/site-packages (from jsonschema&lt;=4.8.0-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (21.2.0)
 Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,&gt;=0.14.0
   Downloading pyrsistent-0.19.3-py3-none-any.whl (57 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">57.5/57.5 kB</span> <span class="ansi-red-fg">159.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">57.5/57.5 kB</span> <span class="ansi-red-fg">163.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: wheel in /usr/local/lib/python3.7/site-packages (from lightgbm&lt;3.4,&gt;=3.3-&gt;autogluon.tabular[all]==0.6.2-&gt;autogluon) (0.38.4)
 Collecting regex&gt;=2021.8.3
   Downloading regex-2022.10.31-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (757 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">757.1/757.1 kB</span> <span class="ansi-red-fg">220.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">757.1/757.1 kB</span> <span class="ansi-red-fg">217.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting typish&gt;=1.7.0
   Downloading typish-1.9.3-py3-none-any.whl (45 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">45.1/45.1 kB</span> <span class="ansi-red-fg">137.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">45.1/45.1 kB</span> <span class="ansi-red-fg">146.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting antlr4-python3-runtime==4.8
   Downloading antlr4-python3-runtime-4.8.tar.gz (112 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">112.4/112.4 kB</span> <span class="ansi-red-fg">192.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">112.4/112.4 kB</span> <span class="ansi-red-fg">206.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
   Preparing metadata (setup.py) ... done
 Requirement already satisfied: tabulate in /usr/local/lib/python3.7/site-packages (from openmim&lt;=0.2.1,&gt;0.1.5-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (0.8.9)
-Collecting rich
-  Downloading rich-13.3.1-py3-none-any.whl (239 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">239.0/239.0 kB</span> <span class="ansi-red-fg">207.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting model-index
   Downloading model_index-0.1.11-py3-none-any.whl (34 kB)
+Collecting rich
+  Downloading rich-13.3.1-py3-none-any.whl (239 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">239.0/239.0 kB</span> <span class="ansi-red-fg">217.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: colorama in /usr/local/lib/python3.7/site-packages (from openmim&lt;=0.2.1,&gt;0.1.5-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (0.4.3)
-Requirement already satisfied: python-dateutil&gt;=2.7.3 in /usr/local/lib/python3.7/site-packages (from pandas!=1.4.0,&lt;1.6,&gt;=1.2.5-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2.8.2)
 Requirement already satisfied: pytz&gt;=2017.3 in /usr/local/lib/python3.7/site-packages (from pandas!=1.4.0,&lt;1.6,&gt;=1.2.5-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2021.3)
-Requirement already satisfied: Cython!=0.29.18,&gt;=0.29 in /usr/local/lib/python3.7/site-packages (from pmdarima~=1.8.2-&gt;autogluon.timeseries[all]==0.6.2-&gt;autogluon) (0.29.24)
+Requirement already satisfied: python-dateutil&gt;=2.7.3 in /usr/local/lib/python3.7/site-packages (from pandas!=1.4.0,&lt;1.6,&gt;=1.2.5-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2.8.2)
 Requirement already satisfied: urllib3 in /usr/local/lib/python3.7/site-packages (from pmdarima~=1.8.2-&gt;autogluon.timeseries[all]==0.6.2-&gt;autogluon) (1.25.11)
+Requirement already satisfied: Cython!=0.29.18,&gt;=0.29 in /usr/local/lib/python3.7/site-packages (from pmdarima~=1.8.2-&gt;autogluon.timeseries[all]==0.6.2-&gt;autogluon) (0.29.24)
 Collecting pyDeprecate&gt;=0.3.1
   Downloading pyDeprecate-0.3.2-py3-none-any.whl (10 kB)
 Collecting tensorboard&gt;=2.9.1
   Downloading tensorboard-2.11.2-py3-none-any.whl (6.0 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">6.0/6.0 MB</span> <span class="ansi-red-fg">157.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">6.0/6.0 MB</span> <span class="ansi-red-fg">201.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting virtualenv
+  Downloading virtualenv-20.17.1-py3-none-any.whl (8.8 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">8.8/8.8 MB</span> <span class="ansi-red-fg">171.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
 Collecting grpcio&lt;=1.43.0,&gt;=1.32.0
   Downloading grpcio-1.43.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.1 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">4.1/4.1 MB</span> <span class="ansi-red-fg">105.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">4.1/4.1 MB</span> <span class="ansi-red-fg">188.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting aiosignal
+  Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Collecting frozenlist
+  Downloading frozenlist-1.3.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (148 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">148.0/148.0 kB</span> <span class="ansi-red-fg">202.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting click&gt;=6.6
+  Downloading click-8.0.4-py3-none-any.whl (97 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">97.5/97.5 kB</span> <span class="ansi-red-fg">174.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: protobuf&lt;4.0.0,&gt;=3.15.3 in /usr/local/lib/python3.7/site-packages (from ray&lt;2.1,&gt;=2.0-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (3.19.1)
 Collecting filelock
   Downloading filelock-3.9.0-py3-none-any.whl (9.7 kB)
-Collecting click&gt;=6.6
-  Downloading click-8.0.4-py3-none-any.whl (97 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">97.5/97.5 kB</span> <span class="ansi-red-fg">182.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting frozenlist
-  Downloading frozenlist-1.3.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (148 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">148.0/148.0 kB</span> <span class="ansi-red-fg">188.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting virtualenv
-  Downloading virtualenv-20.17.1-py3-none-any.whl (8.8 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">8.8/8.8 MB</span> <span class="ansi-red-fg">162.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
-Collecting aiosignal
-  Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
 Collecting tensorboardX&gt;=1.9
   Downloading tensorboardX-2.5.1-py2.py3-none-any.whl (125 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">125.4/125.4 kB</span> <span class="ansi-red-fg">178.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">125.4/125.4 kB</span> <span class="ansi-red-fg">204.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.7/site-packages (from requests-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2021.10.8)
 Requirement already satisfied: chardet&lt;3.1.0,&gt;=3.0.2 in /usr/local/lib/python3.7/site-packages (from requests-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (3.0.4)
 Requirement already satisfied: idna&lt;2.9,&gt;=2.5 in /usr/local/lib/python3.7/site-packages (from requests-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2.8)
-Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.7/site-packages (from requests-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2021.10.8)
-Collecting PyWavelets&gt;=1.1.1
-  Downloading PyWavelets-1.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (6.4 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">6.4/6.4 MB</span> <span class="ansi-red-fg">159.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
-Requirement already satisfied: imageio&gt;=2.4.1 in /usr/local/lib/python3.7/site-packages (from scikit-image&lt;0.20.0,&gt;=0.19.1-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (2.13.1)
 Collecting tifffile&gt;=2019.7.26
   Downloading tifffile-2021.11.2-py3-none-any.whl (178 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">178.9/178.9 kB</span> <span class="ansi-red-fg">193.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">178.9/178.9 kB</span> <span class="ansi-red-fg">206.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Requirement already satisfied: imageio&gt;=2.4.1 in /usr/local/lib/python3.7/site-packages (from scikit-image&lt;0.20.0,&gt;=0.19.1-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (2.13.1)
+Collecting PyWavelets&gt;=1.1.1
+  Downloading PyWavelets-1.3.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (6.4 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">6.4/6.4 MB</span> <span class="ansi-red-fg">177.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>00:01
 Requirement already satisfied: threadpoolctl&gt;=2.0.0 in /usr/local/lib/python3.7/site-packages (from scikit-learn&lt;1.2,&gt;=1.0.0-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (3.0.0)
 Requirement already satisfied: numba&gt;=0.53 in /usr/local/lib/python3.7/site-packages (from sktime&lt;0.14,&gt;=0.13.1-&gt;autogluon.timeseries[all]==0.6.2-&gt;autogluon) (0.53.1)
 Collecting deprecated&gt;=1.2.13
   Downloading Deprecated-1.2.13-py2.py3-none-any.whl (9.6 kB)
 Collecting patsy&gt;=0.5.2
   Downloading patsy-0.5.3-py2.py3-none-any.whl (233 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">233.8/233.8 kB</span> <span class="ansi-red-fg">214.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">233.8/233.8 kB</span> <span class="ansi-red-fg">218.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting tokenizers!=0.11.3,&lt;0.14,&gt;=0.11.1
   Downloading tokenizers-0.13.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.6 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">7.6/7.6 MB</span> <span class="ansi-red-fg">166.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
-Requirement already satisfied: jmespath&lt;1.0.0,&gt;=0.7.1 in /usr/local/lib/python3.7/site-packages (from boto3-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (0.10.0)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">7.6/7.6 MB</span> <span class="ansi-red-fg">173.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
 Requirement already satisfied: s3transfer&lt;0.6.0,&gt;=0.5.0 in /usr/local/lib/python3.7/site-packages (from boto3-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (0.5.0)
 Requirement already satisfied: botocore&lt;1.24.0,&gt;=1.23.17 in /usr/local/lib/python3.7/site-packages (from boto3-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (1.23.17)
-Requirement already satisfied: kiwisolver&gt;=1.0.1 in /usr/local/lib/python3.7/site-packages (from matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (1.3.2)
-Requirement already satisfied: setuptools-scm&gt;=4 in /usr/local/lib/python3.7/site-packages (from matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (6.3.2)
+Requirement already satisfied: jmespath&lt;1.0.0,&gt;=0.7.1 in /usr/local/lib/python3.7/site-packages (from boto3-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (0.10.0)
 Requirement already satisfied: pyparsing&gt;=2.2.1 in /usr/local/lib/python3.7/site-packages (from matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (3.0.6)
-Requirement already satisfied: cycler&gt;=0.10 in /usr/local/lib/python3.7/site-packages (from matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (0.11.0)
+Requirement already satisfied: setuptools-scm&gt;=4 in /usr/local/lib/python3.7/site-packages (from matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (6.3.2)
 Requirement already satisfied: fonttools&gt;=4.22.0 in /usr/local/lib/python3.7/site-packages (from matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (4.28.2)
+Requirement already satisfied: kiwisolver&gt;=1.0.1 in /usr/local/lib/python3.7/site-packages (from matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (1.3.2)
+Requirement already satisfied: cycler&gt;=0.10 in /usr/local/lib/python3.7/site-packages (from matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (0.11.0)
 Requirement already satisfied: pyarrow&gt;=6.0.0 in /usr/local/lib/python3.7/site-packages (from datasets&gt;=2.0.0-&gt;evaluate&lt;=0.3.0-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (6.0.1)
 Collecting aiohttp
   Downloading aiohttp-3.8.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (948 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">948.0/948.0 kB</span> <span class="ansi-red-fg">215.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">948.0/948.0 kB</span> <span class="ansi-red-fg">236.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting wrapt&lt;2,&gt;=1.10
   Downloading wrapt-1.14.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (75 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">75.2/75.2 kB</span> <span class="ansi-red-fg">173.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">75.2/75.2 kB</span> <span class="ansi-red-fg">124.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: zipp&gt;=3.1.0 in /usr/local/lib/python3.7/site-packages (from importlib-resources&gt;=1.4.0-&gt;jsonschema&lt;=4.8.0-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (3.6.0)
 Requirement already satisfied: llvmlite&lt;0.37,&gt;=0.36.0rc1 in /usr/local/lib/python3.7/site-packages (from numba&gt;=0.53-&gt;sktime&lt;0.14,&gt;=0.13.1-&gt;autogluon.timeseries[all]==0.6.2-&gt;autogluon) (0.36.0)
 Collecting locket
@@ -15139,53 +15148,53 @@ Collecting locket
 Collecting typing-extensions~=4.0
   Downloading typing_extensions-4.4.0-py3-none-any.whl (26 kB)
 Requirement already satisfied: tomli&gt;=1.0.0 in /usr/local/lib/python3.7/site-packages (from setuptools-scm&gt;=4-&gt;matplotlib-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (1.2.2)
+Collecting spacy-legacy&lt;3.1.0,&gt;=3.0.11
+  Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
 Collecting wasabi&lt;1.2.0,&gt;=0.9.1
   Downloading wasabi-1.1.1-py3-none-any.whl (27 kB)
-Collecting langcodes&lt;4.0.0,&gt;=3.2.0
-  Downloading langcodes-3.3.0-py3-none-any.whl (181 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">181.6/181.6 kB</span> <span class="ansi-red-fg">206.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting murmurhash&lt;1.1.0,&gt;=0.28.0
   Downloading murmurhash-1.0.9-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (21 kB)
-Collecting catalogue&lt;2.1.0,&gt;=2.0.6
-  Downloading catalogue-2.0.8-py3-none-any.whl (17 kB)
+Collecting pathy&gt;=0.10.0
+  Downloading pathy-0.10.1-py3-none-any.whl (48 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">48.9/48.9 kB</span> <span class="ansi-red-fg">168.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting preshed&lt;3.1.0,&gt;=3.0.2
+  Downloading preshed-3.0.8-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (126 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">126.6/126.6 kB</span> <span class="ansi-red-fg">193.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting srsly&lt;3.0.0,&gt;=2.4.3
   Downloading srsly-2.4.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (490 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">490.0/490.0 kB</span> <span class="ansi-red-fg">220.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting typer&lt;0.8.0,&gt;=0.3.0
-  Downloading typer-0.7.0-py3-none-any.whl (38 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">490.0/490.0 kB</span> <span class="ansi-red-fg">227.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting catalogue&lt;2.1.0,&gt;=2.0.6
+  Downloading catalogue-2.0.8-py3-none-any.whl (17 kB)
+Collecting thinc&lt;8.2.0,&gt;=8.1.0
+  Downloading thinc-8.1.7-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (815 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">815.9/815.9 kB</span> <span class="ansi-red-fg">236.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting spacy-loggers&lt;2.0.0,&gt;=1.0.0
   Downloading spacy_loggers-1.0.4-py3-none-any.whl (11 kB)
 Collecting cymem&lt;2.1.0,&gt;=2.0.2
   Downloading cymem-2.0.7-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36 kB)
-Collecting pathy&gt;=0.10.0
-  Downloading pathy-0.10.1-py3-none-any.whl (48 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">48.9/48.9 kB</span> <span class="ansi-red-fg">148.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting thinc&lt;8.2.0,&gt;=8.1.0
-  Downloading thinc-8.1.7-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (815 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">815.9/815.9 kB</span> <span class="ansi-red-fg">195.4 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting preshed&lt;3.1.0,&gt;=3.0.2
-  Downloading preshed-3.0.8-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (126 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">126.6/126.6 kB</span> <span class="ansi-red-fg">185.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting spacy-legacy&lt;3.1.0,&gt;=3.0.11
-  Downloading spacy_legacy-3.0.12-py2.py3-none-any.whl (29 kB)
+Collecting typer&lt;0.8.0,&gt;=0.3.0
+  Downloading typer-0.7.0-py3-none-any.whl (38 kB)
+Collecting langcodes&lt;4.0.0,&gt;=3.2.0
+  Downloading langcodes-3.3.0-py3-none-any.whl (181 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">181.6/181.6 kB</span> <span class="ansi-red-fg">202.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting google-auth&lt;3,&gt;=1.6.3
   Downloading google_auth-2.16.0-py2.py3-none-any.whl (177 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">177.8/177.8 kB</span> <span class="ansi-red-fg">208.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">177.8/177.8 kB</span> <span class="ansi-red-fg">205.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting absl-py&gt;=0.4
   Downloading absl_py-1.4.0-py3-none-any.whl (126 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">126.5/126.5 kB</span> <span class="ansi-red-fg">180.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">126.5/126.5 kB</span> <span class="ansi-red-fg">202.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting tensorboard-data-server&lt;0.7.0,&gt;=0.6.0
+  Downloading tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl (4.9 MB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">4.9/4.9 MB</span> <span class="ansi-red-fg">201.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting tensorboard-plugin-wit&gt;=1.6.0
   Downloading tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">781.3/781.3 kB</span> <span class="ansi-red-fg">135.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting markdown&gt;=2.6.8
-  Downloading Markdown-3.4.1-py3-none-any.whl (93 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">93.3/93.3 kB</span> <span class="ansi-red-fg">107.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">781.3/781.3 kB</span> <span class="ansi-red-fg">235.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: werkzeug&gt;=1.0.1 in /usr/local/lib/python3.7/site-packages (from tensorboard&gt;=2.9.1-&gt;pytorch-lightning&lt;1.8.0,&gt;=1.7.4-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (2.0.2)
 Collecting google-auth-oauthlib&lt;0.5,&gt;=0.4.1
   Downloading google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)
-Collecting tensorboard-data-server&lt;0.7.0,&gt;=0.6.0
-  Downloading tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl (4.9 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">4.9/4.9 MB</span> <span class="ansi-red-fg">155.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting markdown&gt;=2.6.8
+  Downloading Markdown-3.4.1-py3-none-any.whl (93 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">93.3/93.3 kB</span> <span class="ansi-red-fg">177.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Collecting heapdict
   Downloading HeapDict-1.0.1-py3-none-any.whl (3.9 kB)
 Requirement already satisfied: MarkupSafe&gt;=2.0 in /usr/local/lib/python3.7/site-packages (from jinja2-&gt;distributed&lt;=2021.11.2,&gt;=2021.09.1-&gt;autogluon.core[all]==0.6.2-&gt;autogluon) (2.0.1)
@@ -15194,21 +15203,21 @@ Collecting ordered-set
 Requirement already satisfied: tenacity&gt;=6.2.0 in /usr/local/lib/python3.7/site-packages (from plotly-&gt;catboost&lt;1.2,&gt;=1.0-&gt;autogluon.tabular[all]==0.6.2-&gt;autogluon) (8.0.1)
 Collecting markdown-it-py&lt;3.0.0,&gt;=2.1.0
   Downloading markdown_it_py-2.1.0-py3-none-any.whl (84 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">84.5/84.5 kB</span> <span class="ansi-red-fg">176.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">84.5/84.5 kB</span> <span class="ansi-red-fg">179.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: pygments&lt;3.0.0,&gt;=2.14.0 in /usr/local/lib/python3.7/site-packages (from rich-&gt;openmim&lt;=0.2.1,&gt;0.1.5-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (2.14.0)
 Collecting platformdirs&lt;3,&gt;=2.4
   Downloading platformdirs-2.6.2-py3-none-any.whl (14 kB)
-Collecting importlib-metadata
-  Downloading importlib_metadata-6.0.0-py3-none-any.whl (21 kB)
 Collecting distlib&lt;1,&gt;=0.3.6
   Downloading distlib-0.3.6-py2.py3-none-any.whl (468 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">468.5/468.5 kB</span> <span class="ansi-red-fg">140.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Collecting cachetools&lt;6.0,&gt;=2.0.0
-  Downloading cachetools-5.3.0-py3-none-any.whl (9.3 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">468.5/468.5 kB</span> <span class="ansi-red-fg">216.5 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting importlib-metadata
+  Downloading importlib_metadata-6.0.0-py3-none-any.whl (21 kB)
+Requirement already satisfied: rsa&lt;5,&gt;=3.1.4 in /usr/local/lib/python3.7/site-packages (from google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&gt;=2.9.1-&gt;pytorch-lightning&lt;1.8.0,&gt;=1.7.4-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (4.7.2)
 Collecting pyasn1-modules&gt;=0.2.1
   Downloading pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">155.3/155.3 kB</span> <span class="ansi-red-fg">194.7 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
-Requirement already satisfied: rsa&lt;5,&gt;=3.1.4 in /usr/local/lib/python3.7/site-packages (from google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&gt;=2.9.1-&gt;pytorch-lightning&lt;1.8.0,&gt;=1.7.4-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (4.7.2)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">155.3/155.3 kB</span> <span class="ansi-red-fg">191.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting cachetools&lt;6.0,&gt;=2.0.0
+  Downloading cachetools-5.3.0-py3-none-any.whl (9.3 kB)
 Collecting requests-oauthlib&gt;=0.7.0
   Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
 Collecting mdurl~=0.1
@@ -15217,36 +15226,36 @@ Collecting confection&lt;1.0.0,&gt;=0.0.1
   Downloading confection-0.0.4-py3-none-any.whl (32 kB)
 Collecting blis&lt;0.8.0,&gt;=0.7.8
   Downloading blis-0.7.9-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (10.2 MB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">10.2/10.2 MB</span> <span class="ansi-red-fg">134.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
-Collecting async-timeout&lt;5.0,&gt;=4.0.0a3
-  Downloading async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
-Collecting charset-normalizer&lt;3.0,&gt;=2.0
-  Downloading charset_normalizer-2.1.1-py3-none-any.whl (39 kB)
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">10.2/10.2 MB</span> <span class="ansi-red-fg">181.6 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>a <span class="ansi-cyan-fg">0:00:01</span>
 Collecting asynctest==0.13.0
   Downloading asynctest-0.13.0-py3-none-any.whl (26 kB)
+Collecting charset-normalizer&lt;3.0,&gt;=2.0
+  Downloading charset_normalizer-2.1.1-py3-none-any.whl (39 kB)
 Collecting multidict&lt;7.0,&gt;=4.5
   Downloading multidict-6.0.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (94 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">94.8/94.8 kB</span> <span class="ansi-red-fg">171.8 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">94.8/94.8 kB</span> <span class="ansi-red-fg">190.3 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+Collecting async-timeout&lt;5.0,&gt;=4.0.0a3
+  Downloading async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
 Collecting yarl&lt;2.0,&gt;=1.0
   Downloading yarl-1.8.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (231 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">231.4/231.4 kB</span> <span class="ansi-red-fg">126.0 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">231.4/231.4 kB</span> <span class="ansi-red-fg">220.1 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Requirement already satisfied: pyasn1&lt;0.5.0,&gt;=0.4.6 in /usr/local/lib/python3.7/site-packages (from pyasn1-modules&gt;=0.2.1-&gt;google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&gt;=2.9.1-&gt;pytorch-lightning&lt;1.8.0,&gt;=1.7.4-&gt;autogluon.multimodal==0.6.2-&gt;autogluon) (0.4.8)
 Collecting oauthlib&gt;=3.0.0
   Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
-     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">151.7/151.7 kB</span> <span class="ansi-red-fg">190.2 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
+     <span class="ansi-black-intense-fg">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</span> <span class="ansi-green-fg">151.7/151.7 kB</span> <span class="ansi-red-fg">211.9 MB/s</span> eta <span class="ansi-cyan-fg">0:00:00</span>
 Building wheels for collected packages: fairscale, antlr4-python3-runtime, seqeval, future
   Building wheel for fairscale (pyproject.toml) ... done
-  Created wheel for fairscale: filename=fairscale-0.4.6-py3-none-any.whl size=307224 sha256=57651c7c32e797bbae3f86f260feda97e496d22166c2814fe05d4772dd42c6d0
-  Stored in directory: /tmp/pip-ephem-wheel-cache-osq2dy_b/wheels/4e/4f/0b/94c29ea06dfad93260cb0377855f87b7b863312317a7f69fe7
+  Created wheel for fairscale: filename=fairscale-0.4.6-py3-none-any.whl size=307224 sha256=5b3ba31ddae5ac1b4d6cdd51e9c3de4db0d0aaf760db70738aee7efd9818fcd9
+  Stored in directory: /tmp/pip-ephem-wheel-cache-cjolv9gt/wheels/4e/4f/0b/94c29ea06dfad93260cb0377855f87b7b863312317a7f69fe7
   Building wheel for antlr4-python3-runtime (setup.py) ... done
-  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.8-py3-none-any.whl size=141211 sha256=79a4efc1e1f09ab1c75137bb98dc0696ec4dc2246df7ab76c773bc324b582e09
-  Stored in directory: /tmp/pip-ephem-wheel-cache-osq2dy_b/wheels/ca/33/b7/336836125fc9bb4ceaa4376d8abca10ca8bc84ddc824baea6c
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.8-py3-none-any.whl size=141211 sha256=1ba58bc5d42dd2ca4d130ce1246a6673d61bd84f5b72fe2cd564bf91479257ab
+  Stored in directory: /tmp/pip-ephem-wheel-cache-cjolv9gt/wheels/ca/33/b7/336836125fc9bb4ceaa4376d8abca10ca8bc84ddc824baea6c
   Building wheel for seqeval (setup.py) ... done
-  Created wheel for seqeval: filename=seqeval-1.2.2-py3-none-any.whl size=16164 sha256=647551a2287a3e82baf323a3cbb7d3be9876354e0d01e3aa5937b2a85785b438
-  Stored in directory: /tmp/pip-ephem-wheel-cache-osq2dy_b/wheels/05/96/ee/7cac4e74f3b19e3158dce26a20a1c86b3533c43ec72a549fd7
+  Created wheel for seqeval: filename=seqeval-1.2.2-py3-none-any.whl size=16164 sha256=39c4b3ad874bf1b085fc7756c90470a2379bf0dc8487f900c2ed35c57f64e5e8
+  Stored in directory: /tmp/pip-ephem-wheel-cache-cjolv9gt/wheels/05/96/ee/7cac4e74f3b19e3158dce26a20a1c86b3533c43ec72a549fd7
   Building wheel for future (setup.py) ... done
-  Created wheel for future: filename=future-0.18.3-py3-none-any.whl size=492025 sha256=aa7ee48fa3a73f0f39489cca2e32a50fdc8bdaf71c7a99cb72851f11c6aeffd6
-  Stored in directory: /tmp/pip-ephem-wheel-cache-osq2dy_b/wheels/fa/cd/1f/c6b7b50b564983bf3011e8fc75d06047ddc50c07f6e3660b00
+  Created wheel for future: filename=future-0.18.3-py3-none-any.whl size=492025 sha256=e92d43026f296a5837010b69564939837d2ff7b0e8672bcd4844f66eba35c081
+  Stored in directory: /tmp/pip-ephem-wheel-cache-cjolv9gt/wheels/fa/cd/1f/c6b7b50b564983bf3011e8fc75d06047ddc50c07f6e3660b00
 Successfully built fairscale antlr4-python3-runtime seqeval future
 Installing collected packages: typish, tokenizers, tensorboard-plugin-wit, sortedcontainers, sentencepiece, py4j, msgpack, heapdict, distlib, cymem, antlr4-python3-runtime, zict, yacs, xxhash, wrapt, typing-extensions, tqdm, toolz, tensorboard-data-server, tblib, spacy-loggers, spacy-legacy, smart-open, regex, pyrsistent, pyDeprecate, pyasn1-modules, Pillow, ordered-set, omegaconf, oauthlib, numpy, murmurhash, multidict, mdurl, locket, langcodes, importlib-resources, grpcio, future, frozenlist, filelock, fastprogress, defusedxml, charset-normalizer, cachetools, autocfg, asynctest, absl-py, yarl, wasabi, torch, tifffile, tensorboardX, scipy, responses, requests-oauthlib, PyWavelets, pydantic, preshed, platformdirs, patsy, partd, opencv-python-headless, nptyping, markdown-it-py, importlib-metadata, google-auth, fastcore, deprecated, catalogue, blis, async-timeout, aiosignal, xgboost, virtualenv, torchvision, torchtext, torchmetrics, statsmodels, srsly, scikit-image, rich, nlpaug, markdown, jsonschema, hyperopt, huggingface-hub, google-auth-oauthlib, gluonts, fastdownload, fairscale, dask, click, aiohttp, accelerate, typer, transformers, timm, tensorboard, sktime, seqeval, ray, qudida, pytorch-metric-learning, pmdarima, nltk, model-index, lightgbm, gluoncv, distributed, confection, catboost, thinc, tbats, pytorch-lightning, pathy, openmim, datasets, autogluon.common, albumentations, spacy, evaluate, autogluon.features, autogluon.core, fastai, autogluon.tabular, autogluon.multimodal, autogluon.vision, autogluon.timeseries, autogluon.text, autogluon
   Attempting uninstall: typing-extensions
@@ -15317,18 +15326,25 @@ Successfully installed Pillow-9.4.0 PyWavelets-1.3.0 absl-py-1.4.0 accelerate-0.
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Fill in your user name and key from creating the kaggle account and API token file</span>
 <span class="kn">import</span> <span class="nn">json</span>
-<span class="n">kaggle_username</span> <span class="o">=</span> <span class="s2">"avikej"</span>
-<span class="n">kaggle_key</span> <span class="o">=</span> <span class="s2">"62df587bcbf6e8fa46e130de3f69ac8f"</span>
+
+<span class="o">!</span>pip install python-dotenv
+
+<span class="kn">from</span> <span class="nn">dotenv</span> <span class="kn">import</span> <span class="n">dotenv_values</span>
+
+<span class="n">CONFIG</span> <span class="o">=</span> <span class="n">dotenv_values</span><span class="p">(</span><span class="s1">'.env'</span><span class="p">)</span>
+<span class="n">kaggle_username</span> <span class="o">=</span> <span class="n">CONFIG</span><span class="p">[</span><span class="s1">'KAGGLE_USERNAME'</span><span class="p">]</span>
+<span class="n">kaggle_key</span> <span class="o">=</span> <span class="n">CONFIG</span><span class="p">[</span><span class="s1">'KAGGLE_KEY'</span><span class="p">]</span>
+
 
 <span class="c1"># Save API token the kaggle.json file</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">"/root/.kaggle/kaggle.json"</span><span class="p">,</span> <span class="s2">"w"</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
@@ -15338,6 +15354,31 @@ Successfully installed Pillow-9.4.0 PyWavelets-1.3.0 absl-py-1.4.0 accelerate-0.
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre><span class="ansi-yellow-fg">WARNING: The directory &#39;/root/.cache/pip&#39; or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo&#39;s -H flag.</span><span class="ansi-yellow-fg">
+</span>Requirement already satisfied: python-dotenv in /usr/local/lib/python3.7/site-packages (0.21.1)
+<span class="ansi-yellow-fg">WARNING: Running pip as the &#39;root&#39; user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv</span><span class="ansi-yellow-fg">
+</span></pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15416,7 +15457,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -15457,7 +15498,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create the train dataset in pandas by reading the csv</span>
@@ -15482,7 +15523,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
 
 
 
@@ -15611,7 +15652,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Simple output of the train dataset to view some of the min/max/varition of the dataset features.</span>
@@ -15633,7 +15674,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
 
 
 
@@ -15798,7 +15839,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create the test pandas dataframe in pandas by reading the csv, remember to parse the datetime!</span>
@@ -15822,7 +15863,7 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 
 
 
@@ -15933,13 +15974,13 @@ Archive:  bike-sharing-demand.zip
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 
-<span class="n">train</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="s1">'count'</span><span class="p">)</span>
+<span class="n">train</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="s1">'count'</span><span class="p">);</span>
 </pre></div>
 
      </div>
@@ -15953,20 +15994,6 @@ Archive:  bike-sharing-demand.zip
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([[&lt;AxesSubplot:title={&#39;center&#39;:&#39;count&#39;}&gt;]], dtype=object)</pre>
-</div>
-
-</div>
 
 <div class="jp-OutputArea-child">
 
@@ -15996,7 +16023,7 @@ jp-needs-light-background
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Same thing as train and test dataset</span>
@@ -16020,7 +16047,7 @@ jp-needs-light-background
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 
 
 
@@ -17702,28 +17729,46 @@ submission.csv               2023-01-30 22:21:42  first raw submission  complete
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hyperparams</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">'auto_stack'</span><span class="p">:</span> <span class="s2">"True"</span><span class="p">,</span>
+    <span class="s1">'num_bag_sets'</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="s1">'num_stack_levels'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="s1">'refit_full'</span><span class="p">:</span> <span class="s2">"True"</span><span class="p">,</span>
+    <span class="s1">'set_best_to_refit_full'</span><span class="p">:</span> <span class="s2">"True"</span><span class="p">,</span>
+    <span class="s1">'scheduler'</span><span class="p">:</span> <span class="s1">'local'</span><span class="p">,</span>
+    <span class="s1">'searcher'</span><span class="p">:</span> <span class="s1">'auto'</span>
+    
+<span class="p">}</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[71]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># try:</span>
-<span class="c1">#     predictor_new_hpo = TabularPredictor.load("AutogluonModels/ag-20230131_052049/")</span>
-<span class="c1"># except:</span>
-<span class="n">predictor_new_hpo</span> <span class="o">=</span> <span class="n">TabularPredictor</span><span class="p">(</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictor_new_hpo</span> <span class="o">=</span> <span class="n">TabularPredictor</span><span class="p">(</span>
         <span class="n">label</span><span class="o">=</span><span class="s1">'count'</span><span class="p">,</span> <span class="n">eval_metric</span><span class="o">=</span><span class="s1">'root_mean_squared_error'</span><span class="p">,</span>
         <span class="n">problem_type</span><span class="o">=</span><span class="s1">'regression'</span><span class="p">,</span>
         <span class="n">learner_kwargs</span><span class="o">=</span><span class="p">{</span><span class="s1">'ignored_columns'</span><span class="p">:</span> <span class="p">[</span><span class="s1">'casual'</span><span class="p">,</span> <span class="s1">'registered'</span><span class="p">]}</span>
     <span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">train</span><span class="p">,</span> <span class="n">time_limit</span><span class="o">=</span><span class="mi">300</span><span class="p">,</span>
         <span class="n">presets</span><span class="o">=</span><span class="s1">'best_quality'</span><span class="p">,</span>
-        <span class="n">auto_stack</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
-        <span class="n">num_bag_sets</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span>
-        <span class="n">num_stack_levels</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span>
-        <span class="n">refit_full</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
-        <span class="n">set_best_to_refit_full</span><span class="o">=</span><span class="kc">True</span>
+        <span class="n">hyperparameter_tune_kwargs</span><span class="o">=</span><span class="n">hyperparams</span>
     <span class="p">)</span>
 </pre></div>
 
@@ -17745,161 +17790,33 @@ submission.csv               2023-01-30 22:21:42  first raw submission  complete
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>No path specified. Models will be saved in: &#34;AutogluonModels/ag-20230131_053454/&#34;
-Presets specified: [&#39;best_quality&#39;]
-Stack configuration (auto_stack=True): num_stack_levels=2, num_bag_folds=8, num_bag_sets=4
-Beginning AutoGluon training ... Time limit = 300s
-AutoGluon will save models to &#34;AutogluonModels/ag-20230131_053454/&#34;
-AutoGluon Version:  0.6.2
-Python Version:     3.7.10
-Operating System:   Linux
-Platform Machine:   x86_64
-Platform Version:   #1 SMP Fri Dec 9 09:57:03 UTC 2022
-Train Data Rows:    10886
-Train Data Columns: 12
-Label Column: count
-Preprocessing data ...
-Using Feature Generators to preprocess the data ...
-Dropping user-specified ignored columns: [&#39;casual&#39;, &#39;registered&#39;]
-Fitting AutoMLPipelineFeatureGenerator...
-	Available Memory:                    2042.86 MB
-	Train Data (Original)  Memory Usage: 0.72 MB (0.0% of available memory)
-	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
-	Stage 1 Generators:
-		Fitting AsTypeFeatureGenerator...
-			Note: Converting 2 features to boolean dtype as they only contain 2 unique values.
-	Stage 2 Generators:
-		Fitting FillNaFeatureGenerator...
-	Stage 3 Generators:
-		Fitting IdentityFeatureGenerator...
-		Fitting CategoryFeatureGenerator...
-			Fitting CategoryMemoryMinimizeFeatureGenerator...
-		Fitting DatetimeFeatureGenerator...
-/usr/local/lib/python3.7/site-packages/autogluon/features/generators/datetime.py:59: FutureWarning: casting datetime64[ns, UTC] values to int64 with .astype(...) is deprecated and will raise in a future version. Use .view(...) instead.
-  good_rows = series[~series.isin(bad_rows)].astype(np.int64)
-	Stage 4 Generators:
-		Fitting DropUniqueFeatureGenerator...
-	Types of features in original data (raw dtype, special dtypes):
-		(&#39;category&#39;, []) : 2 | [&#39;season&#39;, &#39;weather&#39;]
-		(&#39;datetime&#39;, []) : 1 | [&#39;datetime&#39;]
-		(&#39;float&#39;, [])    : 4 | [&#39;temp&#39;, &#39;atemp&#39;, &#39;windspeed&#39;, &#39;feel_temp_diff&#39;]
-		(&#39;int&#39;, [])      : 3 | [&#39;holiday&#39;, &#39;workingday&#39;, &#39;humidity&#39;]
-	Types of features in processed data (raw dtype, special dtypes):
-		(&#39;category&#39;, [])             : 2 | [&#39;season&#39;, &#39;weather&#39;]
-		(&#39;float&#39;, [])                : 4 | [&#39;temp&#39;, &#39;atemp&#39;, &#39;windspeed&#39;, &#39;feel_temp_diff&#39;]
-		(&#39;int&#39;, [])                  : 1 | [&#39;humidity&#39;]
-		(&#39;int&#39;, [&#39;bool&#39;])            : 2 | [&#39;holiday&#39;, &#39;workingday&#39;]
-		(&#39;int&#39;, [&#39;datetime_as_int&#39;]) : 5 | [&#39;datetime&#39;, &#39;datetime.year&#39;, &#39;datetime.month&#39;, &#39;datetime.day&#39;, &#39;datetime.dayofweek&#39;]
-	0.3s = Fit runtime
-	10 features in original data used to generate 14 features in processed data.
-	Train Data (Processed) Memory Usage: 0.92 MB (0.0% of available memory)
-Data preprocessing and feature engineering runtime = 0.36s ...
-AutoGluon will gauge predictive performance using evaluation metric: &#39;r2&#39;
-	To change this, specify the eval_metric parameter of Predictor()
-AutoGluon will fit 3 stack levels (L1 to L3) ...
-Fitting 11 L1 models ...
-Fitting model: KNeighborsUnif_BAG_L1 ... Training model for up to 133.14s of the 299.63s of remaining time.
-	0.6857	 = Validation score   (r2)
-	0.03s	 = Training   runtime
-	0.1s	 = Validation runtime
-Fitting model: KNeighborsDist_BAG_L1 ... Training model for up to 132.77s of the 299.26s of remaining time.
-	0.7843	 = Validation score   (r2)
-	0.03s	 = Training   runtime
-	0.1s	 = Validation runtime
-Fitting model: LightGBMXT_BAG_L1 ... Training model for up to 132.4s of the 298.89s of remaining time.
+<pre>No model was trained during hyperparameter tuning NeuralNetTorch_BAG_L2... Skipping this model.
+Fitting model: LightGBMLarge_BAG_L2 ... Training model for up to 3.33s of the -90.75s of remaining time.
 	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy
-	0.4753	 = Validation score   (r2)
-	72.34s	 = Training   runtime
-	5.13s	 = Validation runtime
-Fitting model: LightGBM_BAG_L1 ... Training model for up to 55.67s of the 222.16s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy
-	0.4763	 = Validation score   (r2)
-	37.87s	 = Training   runtime
-	1.45s	 = Validation runtime
-Fitting model: RandomForestMSE_BAG_L1 ... Training model for up to 13.73s of the 180.22s of remaining time.
-	0.5774	 = Validation score   (r2)
-	12.07s	 = Training   runtime
-	0.57s	 = Validation runtime
-Completed 1/4 k-fold bagging repeats ...
-Fitting model: WeightedEnsemble_L2 ... Training model for up to 299.64s of the 164.78s of remaining time.
-	0.7843	 = Validation score   (r2)
-	0.48s	 = Training   runtime
+	-77.0417	 = Validation score   (-root_mean_squared_error)
+	19.73s	 = Training   runtime
+	0.08s	 = Validation runtime
+Completed 1/20 k-fold bagging repeats ...
+Fitting model: WeightedEnsemble_L3 ... Training model for up to 299.75s of the -112.37s of remaining time.
+	-52.6975	 = Validation score   (-root_mean_squared_error)
+	0.58s	 = Training   runtime
 	0.0s	 = Validation runtime
-Fitting 9 L2 models ...
-Fitting model: LightGBMXT_BAG_L2 ... Training model for up to 109.46s of the 164.21s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy
-	0.8861	 = Validation score   (r2)
-	71.55s	 = Training   runtime
-	4.61s	 = Validation runtime
-Fitting model: LightGBM_BAG_L2 ... Training model for up to 33.67s of the 88.42s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy
-	0.9081	 = Validation score   (r2)
-	28.41s	 = Training   runtime
-	0.41s	 = Validation runtime
-Fitting model: RandomForestMSE_BAG_L2 ... Training model for up to 1.32s of the 56.07s of remaining time.
-	0.9124	 = Validation score   (r2)
-	24.84s	 = Training   runtime
-	0.62s	 = Validation runtime
-Completed 1/4 k-fold bagging repeats ...
-Fitting model: WeightedEnsemble_L3 ... Training model for up to 299.64s of the 28.02s of remaining time.
-	0.9138	 = Validation score   (r2)
-	0.33s	 = Training   runtime
-	0.0s	 = Validation runtime
-Fitting 9 L3 models ...
-Fitting model: LightGBMXT_BAG_L3 ... Training model for up to 27.6s of the 27.59s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy
-	0.9056	 = Validation score   (r2)
-	23.3s	 = Training   runtime
-	0.21s	 = Validation runtime
-Fitting model: LightGBM_BAG_L3 ... Training model for up to 0.55s of the 0.54s of remaining time.
-	Fitting 8 child models (S1F1 - S1F8) | Fitting with ParallelLocalFoldFittingStrategy
-	0.0887	 = Validation score   (r2)
-	18.04s	 = Training   runtime
-	0.06s	 = Validation runtime
-Completed 1/4 k-fold bagging repeats ...
-Fitting model: WeightedEnsemble_L4 ... Training model for up to 299.64s of the -21.54s of remaining time.
-	0.9056	 = Validation score   (r2)
-	0.17s	 = Training   runtime
-	0.0s	 = Validation runtime
-AutoGluon training complete, total runtime = 321.9s ... Best model: &#34;WeightedEnsemble_L3&#34;
-Fitting model: KNeighborsUnif_BAG_L1_FULL | Skipping fit via cloning parent ...
-	0.03s	 = Training   runtime
-	0.1s	 = Validation runtime
-Fitting model: KNeighborsDist_BAG_L1_FULL | Skipping fit via cloning parent ...
-	0.03s	 = Training   runtime
-	0.1s	 = Validation runtime
-Fitting 1 L1 models ...
-Fitting model: LightGBMXT_BAG_L1_FULL ...
-	3.44s	 = Training   runtime
-Fitting 1 L1 models ...
-Fitting model: LightGBM_BAG_L1_FULL ...
-	1.44s	 = Training   runtime
-Fitting model: RandomForestMSE_BAG_L1_FULL | Skipping fit via cloning parent ...
-	12.07s	 = Training   runtime
-	0.57s	 = Validation runtime
-Fitting model: WeightedEnsemble_L2_FULL | Skipping fit via cloning parent ...
-	0.48s	 = Training   runtime
-Fitting 1 L2 models ...
-Fitting model: LightGBMXT_BAG_L2_FULL ...
-	3.6s	 = Training   runtime
-Fitting 1 L2 models ...
-Fitting model: LightGBM_BAG_L2_FULL ...
-	0.73s	 = Training   runtime
-Fitting model: RandomForestMSE_BAG_L2_FULL | Skipping fit via cloning parent ...
-	24.84s	 = Training   runtime
-	0.62s	 = Validation runtime
-Fitting model: WeightedEnsemble_L3_FULL | Skipping fit via cloning parent ...
-	0.33s	 = Training   runtime
-Fitting 1 L3 models ...
-Fitting model: LightGBMXT_BAG_L3_FULL ...
-	0.51s	 = Training   runtime
-Fitting 1 L3 models ...
-Fitting model: LightGBM_BAG_L3_FULL ...
-	0.3s	 = Training   runtime
-Fitting model: WeightedEnsemble_L4_FULL | Skipping fit via cloning parent ...
-	0.17s	 = Training   runtime
-TabularPredictor saved. To load, use: predictor = TabularPredictor.load(&#34;AutogluonModels/ag-20230131_053454/&#34;)
+AutoGluon training complete, total runtime = 413.16s ... Best model: &#34;WeightedEnsemble_L3&#34;
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load(&#34;AutogluonModels/ag-20230131_185531/&#34;)
 </pre>
 </div>
 </div>
@@ -17913,7 +17830,7 @@ TabularPredictor saved. To load, use: predictor = TabularPredictor.load(&#34;Aut
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictor_new_hpo</span><span class="o">.</span><span class="n">fit_summary</span><span class="p">()</span>
@@ -17940,46 +17857,36 @@ TabularPredictor saved. To load, use: predictor = TabularPredictor.load(&#34;Aut
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>*** Summary of fit() ***
 Estimated performance of each model:
-                          model  score_val  pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
-0           WeightedEnsemble_L3   0.913766      12.996436  247.454274                0.001045           0.330937            3       True         10
-1        RandomForestMSE_BAG_L2   0.912419       7.971783  147.171854                0.616635          24.838117            2       True          9
-2               LightGBM_BAG_L2   0.908143       7.764298  150.739333                0.409149          28.405596            2       True          8
-3             LightGBMXT_BAG_L3   0.905627      13.207967  270.427896                0.212575          23.304560            3       True         11
-4           WeightedEnsemble_L4   0.905627      13.208742  270.601012                0.000776           0.173115            4       True         13
-5             LightGBMXT_BAG_L2   0.886138      11.969608  193.879623                4.614459          71.545886            2       True          7
-6         KNeighborsDist_BAG_L1   0.784305       0.103673    0.027717                0.103673           0.027717            1       True          2
-7           WeightedEnsemble_L2   0.784305       0.104492    0.507303                0.000819           0.479586            2       True          6
-8         KNeighborsUnif_BAG_L1   0.685720       0.103065    0.029459                0.103065           0.029459            1       True          1
-9        RandomForestMSE_BAG_L1   0.577427       0.567783   12.066056                0.567783          12.066056            1       True          5
-10              LightGBM_BAG_L1   0.476287       1.452539   37.871996                1.452539          37.871996            1       True          4
-11            LightGBMXT_BAG_L1   0.475287       5.128089   72.338510                5.128089          72.338510            1       True          3
-12              LightGBM_BAG_L3   0.088710      13.056526  265.163982                0.061135          18.040645            3       True         12
-13   KNeighborsUnif_BAG_L1_FULL        NaN       0.103065    0.029459                0.103065           0.029459            1       True         14
-14   KNeighborsDist_BAG_L1_FULL        NaN       0.103673    0.027717                0.103673           0.027717            1       True         15
-15  RandomForestMSE_BAG_L1_FULL        NaN       0.567783   12.066056                0.567783          12.066056            1       True         18
-16     WeightedEnsemble_L4_FULL        NaN            NaN   46.862653                     NaN           0.173115            4       True         26
-17     WeightedEnsemble_L3_FULL        NaN            NaN   46.509877                     NaN           0.330937            3       True         23
-18     WeightedEnsemble_L2_FULL        NaN            NaN    0.507303                     NaN           0.479586            2       True         19
-19  RandomForestMSE_BAG_L2_FULL        NaN            NaN   41.850297                0.616635          24.838117            2       True         22
-20         LightGBM_BAG_L3_FULL        NaN            NaN   46.476240                     NaN           0.297301            3       True         25
-21         LightGBM_BAG_L2_FULL        NaN            NaN   17.744643                     NaN           0.732463            2       True         21
-22         LightGBM_BAG_L1_FULL        NaN            NaN    1.444370                     NaN           1.444370            1       True         17
-23       LightGBMXT_BAG_L3_FULL        NaN            NaN   46.689538                     NaN           0.510598            3       True         24
-24       LightGBMXT_BAG_L2_FULL        NaN            NaN   20.608359                     NaN           3.596179            2       True         20
-25       LightGBMXT_BAG_L1_FULL        NaN            NaN    3.444579                     NaN           3.444579            1       True         16
-Number of models trained: 26
+                     model   score_val  pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0      WeightedEnsemble_L3  -52.697544       0.745111  286.169133                0.001207           0.582834            3       True         17
+1   RandomForestMSE_BAG_L2  -53.207566       0.743694  250.673624                0.000219          31.164865            2       True         13
+2     ExtraTreesMSE_BAG_L2  -53.712229       0.743599  231.876540                0.000124          12.367781            2       True         14
+3       LightGBM_BAG_L2/T1  -55.575230       0.743561  242.053653                0.000086          22.544894            2       True         12
+4        XGBoost_BAG_L2/T1  -59.136869       0.743595  238.455693                0.000121          18.946934            2       True         15
+5     LightGBMXT_BAG_L2/T1  -75.665948       0.743602  242.661577                0.000128          23.152818            2       True         11
+6     LightGBMLarge_BAG_L2  -77.041655       0.821064  239.235306                0.077590          19.726547            2       True         16
+7    KNeighborsDist_BAG_L1  -84.125061       0.000132    0.329493                0.000132           0.329493            1       True          2
+8      WeightedEnsemble_L2  -84.125061       0.001208    0.940109                0.001076           0.610616            2       True         10
+9    KNeighborsUnif_BAG_L1 -101.546199       0.000136    0.360304                0.000136           0.360304            1       True          1
+10  RandomForestMSE_BAG_L1 -116.544294       0.000140   14.029608                0.000140          14.029608            1       True          5
+11    ExtraTreesMSE_BAG_L1 -124.588053       0.000147    8.266538                0.000147           8.266538            1       True          7
+12    LightGBMLarge_BAG_L1 -130.132290       0.742439   32.689114                0.742439          32.689114            1       True          9
+13      LightGBM_BAG_L1/T1 -131.054162       0.000132   32.853595                0.000132          32.853595            1       True          4
+14       XGBoost_BAG_L1/T1 -132.133694       0.000096   28.921073                0.000096          28.921073            1       True          8
+15    LightGBMXT_BAG_L1/T1 -132.624782       0.000126   75.003801                0.000126          75.003801            1       True          3
+16      CatBoost_BAG_L1/T1 -134.325029       0.000126   27.055233                0.000126          27.055233            1       True          6
+Number of models trained: 17
 Types of models trained:
-{&#39;StackerEnsembleModel_RF&#39;, &#39;StackerEnsembleModel_LGB&#39;, &#39;WeightedEnsembleModel&#39;, &#39;StackerEnsembleModel_KNN&#39;}
+{&#39;StackerEnsembleModel_KNN&#39;, &#39;StackerEnsembleModel_XT&#39;, &#39;StackerEnsembleModel_XGBoost&#39;, &#39;StackerEnsembleModel_CatBoost&#39;, &#39;StackerEnsembleModel_RF&#39;, &#39;WeightedEnsembleModel&#39;, &#39;StackerEnsembleModel_LGB&#39;}
 Bagging used: True  (with 8 folds)
-Multi-layer stack-ensembling used: True  (with 4 levels)
+Multi-layer stack-ensembling used: True  (with 3 levels)
 Feature Metadata (Processed):
 (raw dtype, special dtypes):
-(&#39;category&#39;, [])             : 2 | [&#39;season&#39;, &#39;weather&#39;]
-(&#39;float&#39;, [])                : 4 | [&#39;temp&#39;, &#39;atemp&#39;, &#39;windspeed&#39;, &#39;feel_temp_diff&#39;]
-(&#39;int&#39;, [])                  : 1 | [&#39;humidity&#39;]
+(&#39;float&#39;, [])                : 3 | [&#39;temp&#39;, &#39;atemp&#39;, &#39;windspeed&#39;]
+(&#39;int&#39;, [])                  : 3 | [&#39;season&#39;, &#39;weather&#39;, &#39;humidity&#39;]
 (&#39;int&#39;, [&#39;bool&#39;])            : 2 | [&#39;holiday&#39;, &#39;workingday&#39;]
 (&#39;int&#39;, [&#39;datetime_as_int&#39;]) : 5 | [&#39;datetime&#39;, &#39;datetime.year&#39;, &#39;datetime.month&#39;, &#39;datetime.day&#39;, &#39;datetime.dayofweek&#39;]
-Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/SummaryOfModels.html
+Plot summary of models saved to file: AutogluonModels/ag-20230131_185531/SummaryOfModels.html
 *** End of fit() summary ***
 </pre>
 </div>
@@ -17988,7 +17895,7 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[74]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 
 
 
@@ -17996,137 +17903,92 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>{&#39;model_types&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: &#39;StackerEnsembleModel_KNN&#39;,
   &#39;KNeighborsDist_BAG_L1&#39;: &#39;StackerEnsembleModel_KNN&#39;,
-  &#39;LightGBMXT_BAG_L1&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;LightGBM_BAG_L1&#39;: &#39;StackerEnsembleModel_LGB&#39;,
+  &#39;LightGBMXT_BAG_L1/T1&#39;: &#39;StackerEnsembleModel_LGB&#39;,
+  &#39;LightGBM_BAG_L1/T1&#39;: &#39;StackerEnsembleModel_LGB&#39;,
   &#39;RandomForestMSE_BAG_L1&#39;: &#39;StackerEnsembleModel_RF&#39;,
+  &#39;CatBoost_BAG_L1/T1&#39;: &#39;StackerEnsembleModel_CatBoost&#39;,
+  &#39;ExtraTreesMSE_BAG_L1&#39;: &#39;StackerEnsembleModel_XT&#39;,
+  &#39;XGBoost_BAG_L1/T1&#39;: &#39;StackerEnsembleModel_XGBoost&#39;,
+  &#39;LightGBMLarge_BAG_L1&#39;: &#39;StackerEnsembleModel_LGB&#39;,
   &#39;WeightedEnsemble_L2&#39;: &#39;WeightedEnsembleModel&#39;,
-  &#39;LightGBMXT_BAG_L2&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;LightGBM_BAG_L2&#39;: &#39;StackerEnsembleModel_LGB&#39;,
+  &#39;LightGBMXT_BAG_L2/T1&#39;: &#39;StackerEnsembleModel_LGB&#39;,
+  &#39;LightGBM_BAG_L2/T1&#39;: &#39;StackerEnsembleModel_LGB&#39;,
   &#39;RandomForestMSE_BAG_L2&#39;: &#39;StackerEnsembleModel_RF&#39;,
-  &#39;WeightedEnsemble_L3&#39;: &#39;WeightedEnsembleModel&#39;,
-  &#39;LightGBMXT_BAG_L3&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;LightGBM_BAG_L3&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;WeightedEnsemble_L4&#39;: &#39;WeightedEnsembleModel&#39;,
-  &#39;KNeighborsUnif_BAG_L1_FULL&#39;: &#39;StackerEnsembleModel_KNN&#39;,
-  &#39;KNeighborsDist_BAG_L1_FULL&#39;: &#39;StackerEnsembleModel_KNN&#39;,
-  &#39;LightGBMXT_BAG_L1_FULL&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;LightGBM_BAG_L1_FULL&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;RandomForestMSE_BAG_L1_FULL&#39;: &#39;StackerEnsembleModel_RF&#39;,
-  &#39;WeightedEnsemble_L2_FULL&#39;: &#39;WeightedEnsembleModel&#39;,
-  &#39;LightGBMXT_BAG_L2_FULL&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;LightGBM_BAG_L2_FULL&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;RandomForestMSE_BAG_L2_FULL&#39;: &#39;StackerEnsembleModel_RF&#39;,
-  &#39;WeightedEnsemble_L3_FULL&#39;: &#39;WeightedEnsembleModel&#39;,
-  &#39;LightGBMXT_BAG_L3_FULL&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;LightGBM_BAG_L3_FULL&#39;: &#39;StackerEnsembleModel_LGB&#39;,
-  &#39;WeightedEnsemble_L4_FULL&#39;: &#39;WeightedEnsembleModel&#39;},
- &#39;model_performance&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: 0.6857197008702899,
-  &#39;KNeighborsDist_BAG_L1&#39;: 0.7843047406609882,
-  &#39;LightGBMXT_BAG_L1&#39;: 0.475287033583924,
-  &#39;LightGBM_BAG_L1&#39;: 0.4762871250171232,
-  &#39;RandomForestMSE_BAG_L1&#39;: 0.5774274324747286,
-  &#39;WeightedEnsemble_L2&#39;: 0.7843047406609882,
-  &#39;LightGBMXT_BAG_L2&#39;: 0.8861378851889273,
-  &#39;LightGBM_BAG_L2&#39;: 0.9081431182859283,
-  &#39;RandomForestMSE_BAG_L2&#39;: 0.9124189966700402,
-  &#39;WeightedEnsemble_L3&#39;: 0.9137655359841804,
-  &#39;LightGBMXT_BAG_L3&#39;: 0.9056266187948641,
-  &#39;LightGBM_BAG_L3&#39;: 0.08871011955038799,
-  &#39;WeightedEnsemble_L4&#39;: 0.9056266187948641,
-  &#39;KNeighborsUnif_BAG_L1_FULL&#39;: None,
-  &#39;KNeighborsDist_BAG_L1_FULL&#39;: None,
-  &#39;LightGBMXT_BAG_L1_FULL&#39;: None,
-  &#39;LightGBM_BAG_L1_FULL&#39;: None,
-  &#39;RandomForestMSE_BAG_L1_FULL&#39;: None,
-  &#39;WeightedEnsemble_L2_FULL&#39;: None,
-  &#39;LightGBMXT_BAG_L2_FULL&#39;: None,
-  &#39;LightGBM_BAG_L2_FULL&#39;: None,
-  &#39;RandomForestMSE_BAG_L2_FULL&#39;: None,
-  &#39;WeightedEnsemble_L3_FULL&#39;: None,
-  &#39;LightGBMXT_BAG_L3_FULL&#39;: None,
-  &#39;LightGBM_BAG_L3_FULL&#39;: None,
-  &#39;WeightedEnsemble_L4_FULL&#39;: None},
- &#39;model_best&#39;: &#39;WeightedEnsemble_L3_FULL&#39;,
- &#39;model_paths&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_053454/models/KNeighborsUnif_BAG_L1/&#39;,
-  &#39;KNeighborsDist_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_053454/models/KNeighborsDist_BAG_L1/&#39;,
-  &#39;LightGBMXT_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBMXT_BAG_L1/&#39;,
-  &#39;LightGBM_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBM_BAG_L1/&#39;,
-  &#39;RandomForestMSE_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_053454/models/RandomForestMSE_BAG_L1/&#39;,
-  &#39;WeightedEnsemble_L2&#39;: &#39;AutogluonModels/ag-20230131_053454/models/WeightedEnsemble_L2/&#39;,
-  &#39;LightGBMXT_BAG_L2&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBMXT_BAG_L2/&#39;,
-  &#39;LightGBM_BAG_L2&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBM_BAG_L2/&#39;,
-  &#39;RandomForestMSE_BAG_L2&#39;: &#39;AutogluonModels/ag-20230131_053454/models/RandomForestMSE_BAG_L2/&#39;,
-  &#39;WeightedEnsemble_L3&#39;: &#39;AutogluonModels/ag-20230131_053454/models/WeightedEnsemble_L3/&#39;,
-  &#39;LightGBMXT_BAG_L3&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBMXT_BAG_L3/&#39;,
-  &#39;LightGBM_BAG_L3&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBM_BAG_L3/&#39;,
-  &#39;WeightedEnsemble_L4&#39;: &#39;AutogluonModels/ag-20230131_053454/models/WeightedEnsemble_L4/&#39;,
-  &#39;KNeighborsUnif_BAG_L1_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/KNeighborsUnif_BAG_L1_FULL/&#39;,
-  &#39;KNeighborsDist_BAG_L1_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/KNeighborsDist_BAG_L1_FULL/&#39;,
-  &#39;LightGBMXT_BAG_L1_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBMXT_BAG_L1_FULL/&#39;,
-  &#39;LightGBM_BAG_L1_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBM_BAG_L1_FULL/&#39;,
-  &#39;RandomForestMSE_BAG_L1_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/RandomForestMSE_BAG_L1_FULL/&#39;,
-  &#39;WeightedEnsemble_L2_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/WeightedEnsemble_L2_FULL/&#39;,
-  &#39;LightGBMXT_BAG_L2_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBMXT_BAG_L2_FULL/&#39;,
-  &#39;LightGBM_BAG_L2_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBM_BAG_L2_FULL/&#39;,
-  &#39;RandomForestMSE_BAG_L2_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/RandomForestMSE_BAG_L2_FULL/&#39;,
-  &#39;WeightedEnsemble_L3_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/WeightedEnsemble_L3_FULL/&#39;,
-  &#39;LightGBMXT_BAG_L3_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBMXT_BAG_L3_FULL/&#39;,
-  &#39;LightGBM_BAG_L3_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/LightGBM_BAG_L3_FULL/&#39;,
-  &#39;WeightedEnsemble_L4_FULL&#39;: &#39;AutogluonModels/ag-20230131_053454/models/WeightedEnsemble_L4_FULL/&#39;},
- &#39;model_fit_times&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: 0.02945852279663086,
-  &#39;KNeighborsDist_BAG_L1&#39;: 0.027716636657714844,
-  &#39;LightGBMXT_BAG_L1&#39;: 72.33850979804993,
-  &#39;LightGBM_BAG_L1&#39;: 37.87199592590332,
-  &#39;RandomForestMSE_BAG_L1&#39;: 12.066056251525879,
-  &#39;WeightedEnsemble_L2&#39;: 0.4795858860015869,
-  &#39;LightGBMXT_BAG_L2&#39;: 71.54588627815247,
-  &#39;LightGBM_BAG_L2&#39;: 28.405596017837524,
-  &#39;RandomForestMSE_BAG_L2&#39;: 24.838117361068726,
-  &#39;WeightedEnsemble_L3&#39;: 0.33093738555908203,
-  &#39;LightGBMXT_BAG_L3&#39;: 23.3045597076416,
-  &#39;LightGBM_BAG_L3&#39;: 18.040645122528076,
-  &#39;WeightedEnsemble_L4&#39;: 0.17311501502990723,
-  &#39;KNeighborsUnif_BAG_L1_FULL&#39;: 0.02945852279663086,
-  &#39;KNeighborsDist_BAG_L1_FULL&#39;: 0.027716636657714844,
-  &#39;LightGBMXT_BAG_L1_FULL&#39;: 3.4445786476135254,
-  &#39;LightGBM_BAG_L1_FULL&#39;: 1.4443700313568115,
-  &#39;RandomForestMSE_BAG_L1_FULL&#39;: 12.066056251525879,
-  &#39;WeightedEnsemble_L2_FULL&#39;: 0.4795858860015869,
-  &#39;LightGBMXT_BAG_L2_FULL&#39;: 3.5961790084838867,
-  &#39;LightGBM_BAG_L2_FULL&#39;: 0.7324628829956055,
-  &#39;RandomForestMSE_BAG_L2_FULL&#39;: 24.838117361068726,
-  &#39;WeightedEnsemble_L3_FULL&#39;: 0.33093738555908203,
-  &#39;LightGBMXT_BAG_L3_FULL&#39;: 0.5105984210968018,
-  &#39;LightGBM_BAG_L3_FULL&#39;: 0.2973005771636963,
-  &#39;WeightedEnsemble_L4_FULL&#39;: 0.17311501502990723},
- &#39;model_pred_times&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: 0.10306525230407715,
-  &#39;KNeighborsDist_BAG_L1&#39;: 0.10367250442504883,
-  &#39;LightGBMXT_BAG_L1&#39;: 5.128088712692261,
-  &#39;LightGBM_BAG_L1&#39;: 1.4525392055511475,
-  &#39;RandomForestMSE_BAG_L1&#39;: 0.5677831172943115,
-  &#39;WeightedEnsemble_L2&#39;: 0.0008192062377929688,
-  &#39;LightGBMXT_BAG_L2&#39;: 4.614458799362183,
-  &#39;LightGBM_BAG_L2&#39;: 0.4091489315032959,
-  &#39;RandomForestMSE_BAG_L2&#39;: 0.6166346073150635,
-  &#39;WeightedEnsemble_L3&#39;: 0.0010449886322021484,
-  &#39;LightGBMXT_BAG_L3&#39;: 0.21257543563842773,
-  &#39;LightGBM_BAG_L3&#39;: 0.061135053634643555,
-  &#39;WeightedEnsemble_L4&#39;: 0.0007755756378173828,
-  &#39;KNeighborsUnif_BAG_L1_FULL&#39;: 0.10306525230407715,
-  &#39;KNeighborsDist_BAG_L1_FULL&#39;: 0.10367250442504883,
-  &#39;LightGBMXT_BAG_L1_FULL&#39;: None,
-  &#39;LightGBM_BAG_L1_FULL&#39;: None,
-  &#39;RandomForestMSE_BAG_L1_FULL&#39;: 0.5677831172943115,
-  &#39;WeightedEnsemble_L2_FULL&#39;: None,
-  &#39;LightGBMXT_BAG_L2_FULL&#39;: None,
-  &#39;LightGBM_BAG_L2_FULL&#39;: None,
-  &#39;RandomForestMSE_BAG_L2_FULL&#39;: 0.6166346073150635,
-  &#39;WeightedEnsemble_L3_FULL&#39;: None,
-  &#39;LightGBMXT_BAG_L3_FULL&#39;: None,
-  &#39;LightGBM_BAG_L3_FULL&#39;: None,
-  &#39;WeightedEnsemble_L4_FULL&#39;: None},
+  &#39;ExtraTreesMSE_BAG_L2&#39;: &#39;StackerEnsembleModel_XT&#39;,
+  &#39;XGBoost_BAG_L2/T1&#39;: &#39;StackerEnsembleModel_XGBoost&#39;,
+  &#39;LightGBMLarge_BAG_L2&#39;: &#39;StackerEnsembleModel_LGB&#39;,
+  &#39;WeightedEnsemble_L3&#39;: &#39;WeightedEnsembleModel&#39;},
+ &#39;model_performance&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: -101.54619908446061,
+  &#39;KNeighborsDist_BAG_L1&#39;: -84.12506123181602,
+  &#39;LightGBMXT_BAG_L1/T1&#39;: -132.62478233710095,
+  &#39;LightGBM_BAG_L1/T1&#39;: -131.054161598899,
+  &#39;RandomForestMSE_BAG_L1&#39;: -116.54429428704391,
+  &#39;CatBoost_BAG_L1/T1&#39;: -134.32502874169933,
+  &#39;ExtraTreesMSE_BAG_L1&#39;: -124.58805258915959,
+  &#39;XGBoost_BAG_L1/T1&#39;: -132.13369373663323,
+  &#39;LightGBMLarge_BAG_L1&#39;: -130.13228993716103,
+  &#39;WeightedEnsemble_L2&#39;: -84.12506123181602,
+  &#39;LightGBMXT_BAG_L2/T1&#39;: -75.66594751986658,
+  &#39;LightGBM_BAG_L2/T1&#39;: -55.5752297655723,
+  &#39;RandomForestMSE_BAG_L2&#39;: -53.20756628423189,
+  &#39;ExtraTreesMSE_BAG_L2&#39;: -53.71222868981796,
+  &#39;XGBoost_BAG_L2/T1&#39;: -59.1368690580046,
+  &#39;LightGBMLarge_BAG_L2&#39;: -77.04165460479722,
+  &#39;WeightedEnsemble_L3&#39;: -52.69754444244068},
+ &#39;model_best&#39;: &#39;WeightedEnsemble_L3&#39;,
+ &#39;model_paths&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_185531/models/KNeighborsUnif_BAG_L1/&#39;,
+  &#39;KNeighborsDist_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_185531/models/KNeighborsDist_BAG_L1/&#39;,
+  &#39;LightGBMXT_BAG_L1/T1&#39;: &#39;/root/cd0385-project-starter/project/AutogluonModels/ag-20230131_185531/models/LightGBMXT_BAG_L1/T1/&#39;,
+  &#39;LightGBM_BAG_L1/T1&#39;: &#39;/root/cd0385-project-starter/project/AutogluonModels/ag-20230131_185531/models/LightGBM_BAG_L1/T1/&#39;,
+  &#39;RandomForestMSE_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_185531/models/RandomForestMSE_BAG_L1/&#39;,
+  &#39;CatBoost_BAG_L1/T1&#39;: &#39;/root/cd0385-project-starter/project/AutogluonModels/ag-20230131_185531/models/CatBoost_BAG_L1/T1/&#39;,
+  &#39;ExtraTreesMSE_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_185531/models/ExtraTreesMSE_BAG_L1/&#39;,
+  &#39;XGBoost_BAG_L1/T1&#39;: &#39;/root/cd0385-project-starter/project/AutogluonModels/ag-20230131_185531/models/XGBoost_BAG_L1/T1/&#39;,
+  &#39;LightGBMLarge_BAG_L1&#39;: &#39;AutogluonModels/ag-20230131_185531/models/LightGBMLarge_BAG_L1/&#39;,
+  &#39;WeightedEnsemble_L2&#39;: &#39;AutogluonModels/ag-20230131_185531/models/WeightedEnsemble_L2/&#39;,
+  &#39;LightGBMXT_BAG_L2/T1&#39;: &#39;/root/cd0385-project-starter/project/AutogluonModels/ag-20230131_185531/models/LightGBMXT_BAG_L2/T1/&#39;,
+  &#39;LightGBM_BAG_L2/T1&#39;: &#39;/root/cd0385-project-starter/project/AutogluonModels/ag-20230131_185531/models/LightGBM_BAG_L2/T1/&#39;,
+  &#39;RandomForestMSE_BAG_L2&#39;: &#39;AutogluonModels/ag-20230131_185531/models/RandomForestMSE_BAG_L2/&#39;,
+  &#39;ExtraTreesMSE_BAG_L2&#39;: &#39;AutogluonModels/ag-20230131_185531/models/ExtraTreesMSE_BAG_L2/&#39;,
+  &#39;XGBoost_BAG_L2/T1&#39;: &#39;/root/cd0385-project-starter/project/AutogluonModels/ag-20230131_185531/models/XGBoost_BAG_L2/T1/&#39;,
+  &#39;LightGBMLarge_BAG_L2&#39;: &#39;AutogluonModels/ag-20230131_185531/models/LightGBMLarge_BAG_L2/&#39;,
+  &#39;WeightedEnsemble_L3&#39;: &#39;AutogluonModels/ag-20230131_185531/models/WeightedEnsemble_L3/&#39;},
+ &#39;model_fit_times&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: 0.3603043556213379,
+  &#39;KNeighborsDist_BAG_L1&#39;: 0.32949304580688477,
+  &#39;LightGBMXT_BAG_L1/T1&#39;: 75.00380086898804,
+  &#39;LightGBM_BAG_L1/T1&#39;: 32.85359501838684,
+  &#39;RandomForestMSE_BAG_L1&#39;: 14.029608011245728,
+  &#39;CatBoost_BAG_L1/T1&#39;: 27.055232763290405,
+  &#39;ExtraTreesMSE_BAG_L1&#39;: 8.26653790473938,
+  &#39;XGBoost_BAG_L1/T1&#39;: 28.921072721481323,
+  &#39;LightGBMLarge_BAG_L1&#39;: 32.68911409378052,
+  &#39;WeightedEnsemble_L2&#39;: 0.6106164455413818,
+  &#39;LightGBMXT_BAG_L2/T1&#39;: 23.152817726135254,
+  &#39;LightGBM_BAG_L2/T1&#39;: 22.544894456863403,
+  &#39;RandomForestMSE_BAG_L2&#39;: 31.164865255355835,
+  &#39;ExtraTreesMSE_BAG_L2&#39;: 12.367781162261963,
+  &#39;XGBoost_BAG_L2/T1&#39;: 18.94693374633789,
+  &#39;LightGBMLarge_BAG_L2&#39;: 19.726547241210938,
+  &#39;WeightedEnsemble_L3&#39;: 0.5828335285186768},
+ &#39;model_pred_times&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: 0.00013589859008789062,
+  &#39;KNeighborsDist_BAG_L1&#39;: 0.00013184547424316406,
+  &#39;LightGBMXT_BAG_L1/T1&#39;: 0.000125885009765625,
+  &#39;LightGBM_BAG_L1/T1&#39;: 0.00013208389282226562,
+  &#39;RandomForestMSE_BAG_L1&#39;: 0.0001404285430908203,
+  &#39;CatBoost_BAG_L1/T1&#39;: 0.00012636184692382812,
+  &#39;ExtraTreesMSE_BAG_L1&#39;: 0.00014710426330566406,
+  &#39;XGBoost_BAG_L1/T1&#39;: 9.608268737792969e-05,
+  &#39;LightGBMLarge_BAG_L1&#39;: 0.742438793182373,
+  &#39;WeightedEnsemble_L2&#39;: 0.0010764598846435547,
+  &#39;LightGBMXT_BAG_L2/T1&#39;: 0.00012755393981933594,
+  &#39;LightGBM_BAG_L2/T1&#39;: 8.630752563476562e-05,
+  &#39;RandomForestMSE_BAG_L2&#39;: 0.00021910667419433594,
+  &#39;ExtraTreesMSE_BAG_L2&#39;: 0.00012421607971191406,
+  &#39;XGBoost_BAG_L2/T1&#39;: 0.00012063980102539062,
+  &#39;LightGBMLarge_BAG_L2&#39;: 0.0775899887084961,
+  &#39;WeightedEnsemble_L3&#39;: 0.0012068748474121094},
  &#39;num_bag_folds&#39;: 8,
- &#39;max_stack_level&#39;: 4,
+ &#39;max_stack_level&#39;: 3,
  &#39;model_hyperparams&#39;: {&#39;KNeighborsUnif_BAG_L1&#39;: {&#39;use_orig_features&#39;: True,
    &#39;max_base_models&#39;: 25,
    &#39;max_base_models_per_type&#39;: 5,
@@ -18137,11 +17999,11 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
    &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True,
    &#39;use_child_oof&#39;: True},
-  &#39;LightGBMXT_BAG_L1&#39;: {&#39;use_orig_features&#39;: True,
+  &#39;LightGBMXT_BAG_L1/T1&#39;: {&#39;use_orig_features&#39;: True,
    &#39;max_base_models&#39;: 25,
    &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True},
-  &#39;LightGBM_BAG_L1&#39;: {&#39;use_orig_features&#39;: True,
+  &#39;LightGBM_BAG_L1/T1&#39;: {&#39;use_orig_features&#39;: True,
    &#39;max_base_models&#39;: 25,
    &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True},
@@ -18150,15 +18012,32 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
    &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True,
    &#39;use_child_oof&#39;: True},
+  &#39;CatBoost_BAG_L1/T1&#39;: {&#39;use_orig_features&#39;: True,
+   &#39;max_base_models&#39;: 25,
+   &#39;max_base_models_per_type&#39;: 5,
+   &#39;save_bag_folds&#39;: True},
+  &#39;ExtraTreesMSE_BAG_L1&#39;: {&#39;use_orig_features&#39;: True,
+   &#39;max_base_models&#39;: 25,
+   &#39;max_base_models_per_type&#39;: 5,
+   &#39;save_bag_folds&#39;: True,
+   &#39;use_child_oof&#39;: True},
+  &#39;XGBoost_BAG_L1/T1&#39;: {&#39;use_orig_features&#39;: True,
+   &#39;max_base_models&#39;: 25,
+   &#39;max_base_models_per_type&#39;: 5,
+   &#39;save_bag_folds&#39;: True},
+  &#39;LightGBMLarge_BAG_L1&#39;: {&#39;use_orig_features&#39;: True,
+   &#39;max_base_models&#39;: 25,
+   &#39;max_base_models_per_type&#39;: 5,
+   &#39;save_bag_folds&#39;: True},
   &#39;WeightedEnsemble_L2&#39;: {&#39;use_orig_features&#39;: False,
    &#39;max_base_models&#39;: 25,
    &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True},
-  &#39;LightGBMXT_BAG_L2&#39;: {&#39;use_orig_features&#39;: True,
+  &#39;LightGBMXT_BAG_L2/T1&#39;: {&#39;use_orig_features&#39;: True,
    &#39;max_base_models&#39;: 25,
    &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True},
-  &#39;LightGBM_BAG_L2&#39;: {&#39;use_orig_features&#39;: True,
+  &#39;LightGBM_BAG_L2/T1&#39;: {&#39;use_orig_features&#39;: True,
    &#39;max_base_models&#39;: 25,
    &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True},
@@ -18167,161 +18046,79 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
    &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True,
    &#39;use_child_oof&#39;: True},
+  &#39;ExtraTreesMSE_BAG_L2&#39;: {&#39;use_orig_features&#39;: True,
+   &#39;max_base_models&#39;: 25,
+   &#39;max_base_models_per_type&#39;: 5,
+   &#39;save_bag_folds&#39;: True,
+   &#39;use_child_oof&#39;: True},
+  &#39;XGBoost_BAG_L2/T1&#39;: {&#39;use_orig_features&#39;: True,
+   &#39;max_base_models&#39;: 25,
+   &#39;max_base_models_per_type&#39;: 5,
+   &#39;save_bag_folds&#39;: True},
+  &#39;LightGBMLarge_BAG_L2&#39;: {&#39;use_orig_features&#39;: True,
+   &#39;max_base_models&#39;: 25,
+   &#39;max_base_models_per_type&#39;: 5,
+   &#39;save_bag_folds&#39;: True},
   &#39;WeightedEnsemble_L3&#39;: {&#39;use_orig_features&#39;: False,
    &#39;max_base_models&#39;: 25,
    &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;LightGBMXT_BAG_L3&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;LightGBM_BAG_L3&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;WeightedEnsemble_L4&#39;: {&#39;use_orig_features&#39;: False,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;KNeighborsUnif_BAG_L1_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True,
-   &#39;use_child_oof&#39;: True},
-  &#39;KNeighborsDist_BAG_L1_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True,
-   &#39;use_child_oof&#39;: True},
-  &#39;LightGBMXT_BAG_L1_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;LightGBM_BAG_L1_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;RandomForestMSE_BAG_L1_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True,
-   &#39;use_child_oof&#39;: True},
-  &#39;WeightedEnsemble_L2_FULL&#39;: {&#39;use_orig_features&#39;: False,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;LightGBMXT_BAG_L2_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;LightGBM_BAG_L2_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;RandomForestMSE_BAG_L2_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True,
-   &#39;use_child_oof&#39;: True},
-  &#39;WeightedEnsemble_L3_FULL&#39;: {&#39;use_orig_features&#39;: False,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;LightGBMXT_BAG_L3_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;LightGBM_BAG_L3_FULL&#39;: {&#39;use_orig_features&#39;: True,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
-   &#39;save_bag_folds&#39;: True},
-  &#39;WeightedEnsemble_L4_FULL&#39;: {&#39;use_orig_features&#39;: False,
-   &#39;max_base_models&#39;: 25,
-   &#39;max_base_models_per_type&#39;: 5,
    &#39;save_bag_folds&#39;: True}},
- &#39;leaderboard&#39;:                           model  score_val  pred_time_val    fit_time  \
- 0           WeightedEnsemble_L3   0.913766      12.996436  247.454274   
- 1        RandomForestMSE_BAG_L2   0.912419       7.971783  147.171854   
- 2               LightGBM_BAG_L2   0.908143       7.764298  150.739333   
- 3             LightGBMXT_BAG_L3   0.905627      13.207967  270.427896   
- 4           WeightedEnsemble_L4   0.905627      13.208742  270.601012   
- 5             LightGBMXT_BAG_L2   0.886138      11.969608  193.879623   
- 6         KNeighborsDist_BAG_L1   0.784305       0.103673    0.027717   
- 7           WeightedEnsemble_L2   0.784305       0.104492    0.507303   
- 8         KNeighborsUnif_BAG_L1   0.685720       0.103065    0.029459   
- 9        RandomForestMSE_BAG_L1   0.577427       0.567783   12.066056   
- 10              LightGBM_BAG_L1   0.476287       1.452539   37.871996   
- 11            LightGBMXT_BAG_L1   0.475287       5.128089   72.338510   
- 12              LightGBM_BAG_L3   0.088710      13.056526  265.163982   
- 13   KNeighborsUnif_BAG_L1_FULL        NaN       0.103065    0.029459   
- 14   KNeighborsDist_BAG_L1_FULL        NaN       0.103673    0.027717   
- 15  RandomForestMSE_BAG_L1_FULL        NaN       0.567783   12.066056   
- 16     WeightedEnsemble_L4_FULL        NaN            NaN   46.862653   
- 17     WeightedEnsemble_L3_FULL        NaN            NaN   46.509877   
- 18     WeightedEnsemble_L2_FULL        NaN            NaN    0.507303   
- 19  RandomForestMSE_BAG_L2_FULL        NaN            NaN   41.850297   
- 20         LightGBM_BAG_L3_FULL        NaN            NaN   46.476240   
- 21         LightGBM_BAG_L2_FULL        NaN            NaN   17.744643   
- 22         LightGBM_BAG_L1_FULL        NaN            NaN    1.444370   
- 23       LightGBMXT_BAG_L3_FULL        NaN            NaN   46.689538   
- 24       LightGBMXT_BAG_L2_FULL        NaN            NaN   20.608359   
- 25       LightGBMXT_BAG_L1_FULL        NaN            NaN    3.444579   
+ &#39;leaderboard&#39;:                      model   score_val  pred_time_val    fit_time  \
+ 0      WeightedEnsemble_L3  -52.697544       0.745111  286.169133   
+ 1   RandomForestMSE_BAG_L2  -53.207566       0.743694  250.673624   
+ 2     ExtraTreesMSE_BAG_L2  -53.712229       0.743599  231.876540   
+ 3       LightGBM_BAG_L2/T1  -55.575230       0.743561  242.053653   
+ 4        XGBoost_BAG_L2/T1  -59.136869       0.743595  238.455693   
+ 5     LightGBMXT_BAG_L2/T1  -75.665948       0.743602  242.661577   
+ 6     LightGBMLarge_BAG_L2  -77.041655       0.821064  239.235306   
+ 7    KNeighborsDist_BAG_L1  -84.125061       0.000132    0.329493   
+ 8      WeightedEnsemble_L2  -84.125061       0.001208    0.940109   
+ 9    KNeighborsUnif_BAG_L1 -101.546199       0.000136    0.360304   
+ 10  RandomForestMSE_BAG_L1 -116.544294       0.000140   14.029608   
+ 11    ExtraTreesMSE_BAG_L1 -124.588053       0.000147    8.266538   
+ 12    LightGBMLarge_BAG_L1 -130.132290       0.742439   32.689114   
+ 13      LightGBM_BAG_L1/T1 -131.054162       0.000132   32.853595   
+ 14       XGBoost_BAG_L1/T1 -132.133694       0.000096   28.921073   
+ 15    LightGBMXT_BAG_L1/T1 -132.624782       0.000126   75.003801   
+ 16      CatBoost_BAG_L1/T1 -134.325029       0.000126   27.055233   
  
      pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
- 0                 0.001045           0.330937            3       True   
- 1                 0.616635          24.838117            2       True   
- 2                 0.409149          28.405596            2       True   
- 3                 0.212575          23.304560            3       True   
- 4                 0.000776           0.173115            4       True   
- 5                 4.614459          71.545886            2       True   
- 6                 0.103673           0.027717            1       True   
- 7                 0.000819           0.479586            2       True   
- 8                 0.103065           0.029459            1       True   
- 9                 0.567783          12.066056            1       True   
- 10                1.452539          37.871996            1       True   
- 11                5.128089          72.338510            1       True   
- 12                0.061135          18.040645            3       True   
- 13                0.103065           0.029459            1       True   
- 14                0.103673           0.027717            1       True   
- 15                0.567783          12.066056            1       True   
- 16                     NaN           0.173115            4       True   
- 17                     NaN           0.330937            3       True   
- 18                     NaN           0.479586            2       True   
- 19                0.616635          24.838117            2       True   
- 20                     NaN           0.297301            3       True   
- 21                     NaN           0.732463            2       True   
- 22                     NaN           1.444370            1       True   
- 23                     NaN           0.510598            3       True   
- 24                     NaN           3.596179            2       True   
- 25                     NaN           3.444579            1       True   
+ 0                 0.001207           0.582834            3       True   
+ 1                 0.000219          31.164865            2       True   
+ 2                 0.000124          12.367781            2       True   
+ 3                 0.000086          22.544894            2       True   
+ 4                 0.000121          18.946934            2       True   
+ 5                 0.000128          23.152818            2       True   
+ 6                 0.077590          19.726547            2       True   
+ 7                 0.000132           0.329493            1       True   
+ 8                 0.001076           0.610616            2       True   
+ 9                 0.000136           0.360304            1       True   
+ 10                0.000140          14.029608            1       True   
+ 11                0.000147           8.266538            1       True   
+ 12                0.742439          32.689114            1       True   
+ 13                0.000132          32.853595            1       True   
+ 14                0.000096          28.921073            1       True   
+ 15                0.000126          75.003801            1       True   
+ 16                0.000126          27.055233            1       True   
  
      fit_order  
- 0          10  
- 1           9  
- 2           8  
- 3          11  
- 4          13  
- 5           7  
- 6           2  
- 7           6  
- 8           1  
- 9           5  
- 10          4  
- 11          3  
- 12         12  
- 13         14  
- 14         15  
- 15         18  
- 16         26  
- 17         23  
- 18         19  
- 19         22  
- 20         25  
- 21         21  
- 22         17  
- 23         24  
- 24         20  
- 25         16  }</pre>
+ 0          17  
+ 1          13  
+ 2          14  
+ 3          12  
+ 4          15  
+ 5          11  
+ 6          16  
+ 7           2  
+ 8          10  
+ 9           1  
+ 10          5  
+ 11          7  
+ 12          9  
+ 13          4  
+ 14          8  
+ 15          3  
+ 16          6  }</pre>
 </div>
 
 </div>
@@ -18335,7 +18132,7 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[75]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Remember to set all negative values to zero</span>
@@ -18357,7 +18154,7 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Same submitting predictions</span>
@@ -18377,7 +18174,7 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>kaggle competitions submit -c bike-sharing-demand -f submission_new_hpo.csv -m <span class="s2">"new features with hyperparameters"</span>
@@ -18402,7 +18199,7 @@ Plot summary of models saved to file: AutogluonModels/ag-20230131_053454/Summary
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>100%|█████████████████████████████████████████| 188k/188k [00:00&lt;00:00, 367kB/s]
+<pre>100%|█████████████████████████████████████████| 188k/188k [00:00&lt;00:00, 418kB/s]
 Successfully submitted to Bike Sharing Demand</pre>
 </div>
 </div>
@@ -18416,7 +18213,7 @@ Successfully submitted to Bike Sharing Demand</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>kaggle competitions submissions -c bike-sharing-demand <span class="p">|</span> tail -n +1 <span class="p">|</span> head -n <span class="m">6</span>
@@ -18443,10 +18240,10 @@ Successfully submitted to Bike Sharing Demand</pre>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>fileName                     date                 description                        status    publicScore  privateScore  
 ---------------------------  -------------------  ---------------------------------  --------  -----------  ------------  
+submission_new_hpo.csv       2023-01-31 19:02:55  new features with hyperparameters  complete  1.80674      1.80674       
 submission_new_hpo.csv       2023-01-31 05:41:19  new features with hyperparameters  complete  1.80926      1.80926       
 submission_new_hpo.csv       2023-01-31 05:29:06  new features with hyperparameters  complete  1.80257      1.80257       
 submission_new_hpo.csv       2023-01-31 05:28:33  new features with hyperparameters  complete  1.81110      1.81110       
-submission_new_features.csv  2023-01-30 22:58:32  new features                       complete  1.78861      1.78861       
 </pre>
 </div>
 </div>
